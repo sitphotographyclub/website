@@ -1,0 +1,21 @@
+.card {
+  border: 1px solid #eee;
+  box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.09);
+}
+.card:hover {
+}
+.card img {
+  height: 170px;
+  width: 170px;
+  margin: 0 auto;
+}
+.social-link-container a {
+  color: var(--bs-dark);
+  transition: all 0.3s ease;
+}
+.social-link-container a:hover {
+  color: var(--bs-secondary);
+}
+.social-link-container a i {
+  font-size: 1.3rem;
+}
