@@ -5,3 +5,4 @@ export default function Event3() {
     <div>Event3</div>
   )
 }
+  
