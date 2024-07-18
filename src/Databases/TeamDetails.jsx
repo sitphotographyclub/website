@@ -87,14 +87,14 @@ const TeamDetails =
         {
             Fullname: "Swarna Shekhar Sarkar"
             , Image: "swarnashekharsarkar.jpg"
-            , Position: "Media Team"
+            , Position: "Management Team"
             , Instagram: "https://www.instagram.com/its_swarna20?igsh=MTQ1c3oxcmYwaWMzYg=="
             , Linkedin: "https://www.linkedin.com/in/swarna-shekhar-sarkar-08b271245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             Fullname: "Indrayaudh Sengupta"
             , Image: "indrayaudhsengupta.jpg"
-            , Position: "Media Team"
+            , Position: "Management Team"
             , Instagram: "_indrayaudh_official"
             , Linkedin: "Indrayaudh Sengupta"
         },
@@ -144,17 +144,17 @@ const TeamDetails =
         {
             Fullname: "Iman Paul"
             , Image: "imanpaul.jpg"
-            , Position: "Management Team"
+            , Position: "PR/Marketing Team"
             , Instagram: "https://www.instagram.com/iman.paul.79?igsh=Nm10YWRvMTQxYXEy"
             , Linkedin: "https://www.linkedin.com/in/iman-paul-6950b8240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
-        {
-            Fullname: "Paushali Karmakar"
-            , Image: "paushalikarmakar.jpg"
-            , Position: "PR/Marketing Team"
-            , Instagram: "_.poushali._"
-            , Linkedin: "Paushali Karmakar"
-        },
+        // {
+        //     Fullname: "Paushali Karmakar"
+        //     , Image: "paushalikarmakar.jpg"
+        //     , Position: "PR/Marketing Team"
+        //     , Instagram: "_.poushali._"
+        //     , Linkedin: "Paushali Karmakar"
+        // },
         {
             Fullname: "Sristi Bhaduri"
             , Image: "sristibhaduri.jpg"
