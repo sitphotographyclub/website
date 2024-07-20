@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import TeamCard from "./Teams/TeamCard";
+import Navbar from "./Navbar";
 
 const Team = () => {
   const teamData = [
@@ -182,11 +183,14 @@ const Team = () => {
   ];
 
   return (
-    <>
-      <div className="container-fluid py-5 px-4 px-md-5">
-        <div className="row">
+    <div className="container-fluid">
+      <div className="row">
+        <Navbar type="dark" />
+      </div>
+      <section className="container-fluid py-5 px-4 px-md-5">
+        <div className="row mt-3">
           <div className="col-12">
-            <h1 className="text-center mb-5 ">Meet The Team</h1>
+            <h1 className="text-center mb-5 mt-5">Meet The Team</h1>
           </div>
         </div>
         <div className="row row-gap-4">
@@ -201,8 +205,8 @@ const Team = () => {
             );
           })}
         </div>
-      </div>
-    </>
+      </section>
+    </div>
   );
 };
 
