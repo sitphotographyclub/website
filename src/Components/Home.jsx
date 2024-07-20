@@ -140,7 +140,7 @@ const Home = () => {
               <div className="mt-5" id="one-click-links">
                 <a href="/">
                   <div className="bg-light custom-shadow px-4 py-4 rounded d-flex gap-4 mb-4 text-dark one-click-link">
-                    <i class="bi bi-search text-dark fs-4 mt-1"></i>
+                    <i className="bi bi-search text-dark fs-4 mt-1"></i>
                     <div>
                       <h4>Find your destination</h4>
                       <p className="mb-0 text-secondary">
@@ -154,7 +154,7 @@ const Home = () => {
 
                 <a href="/">
                   <div className="bg-light px-4 py-4 rounded d-flex gap-4 mb-4 text-dark one-click-link">
-                    <i class="bi bi-back text-dark fs-4 mt-1"></i>
+                    <i className="bi bi-back text-dark fs-4 mt-1"></i>
                     <div>
                       <h4>Book a ticket</h4>
                       <p className="mb-0 text-secondary">
@@ -168,7 +168,7 @@ const Home = () => {
 
                 <a href="/">
                   <div className="bg-light px-4 py-4 rounded d-flex gap-4 mb-4 text-dark one-click-link">
-                    <i class="bi bi-credit-card-fill text-dark fs-4 mt-1"></i>
+                    <i className="bi bi-credit-card-fill text-dark fs-4 mt-1"></i>
                     <div>
                       <h4>Make payment</h4>
                       <p className="mb-0 text-secondary">
@@ -182,7 +182,7 @@ const Home = () => {
 
                 <a href="/">
                   <div className="bg-light px-4 py-4 rounded d-flex gap-4 mb-4 text-dark one-click-link">
-                    <i class="bi bi-puzzle-fill text-dark fs-4 mt-1"></i>
+                    <i className="bi bi-puzzle-fill text-dark fs-4 mt-1"></i>
                     <div>
                       <h4>Explore destination</h4>
                       <p className="mb-0 text-secondary">
