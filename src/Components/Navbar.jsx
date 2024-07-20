@@ -50,7 +50,7 @@ const Navbar = (props) => {
           </li>
         </ul>
 
-        <Link to="/" className="sit_btn mb-4">
+        <Link to="/" className="sit_btn">
           Login
         </Link>
 

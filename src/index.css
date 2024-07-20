@@ -91,6 +91,9 @@ button:focus-visible {
 .custom-shadow {
   box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.1);
 }
+ul {
+  list-style-type: none;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
