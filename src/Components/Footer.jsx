@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Footer.css";
-
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-dark text-secondary py-5 px-4 px-lg-5 mt-5">
@@ -10,22 +10,19 @@ const Footer = () => {
           <ul>
             <h5 className="text-white mb-2">About</h5>
             <li>
-              <a href="/">About us</a>
+              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to="/">Home</NavLink>
             </li>
             <li>
-              <a href="/">Blog</a>
+              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to="/about">About Us</NavLink>
             </li>
             <li>
-              <a href="/">Carrers</a>
+              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to="/team">Team</NavLink>
             </li>
             <li>
-              <a href="/">Jobs</a>
+              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to="/event">Event</NavLink>
             </li>
             <li>
-              <a href="/">Press</a>
-            </li>
-            <li>
-              <a href="/">Gallary</a>
+              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to='/contact'>Contact</NavLink>
             </li>
           </ul>
           <ul>

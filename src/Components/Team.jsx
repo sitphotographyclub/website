@@ -203,7 +203,6 @@ const Team = () => {
           })}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

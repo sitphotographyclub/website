@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { set, ref } from "firebase/database";
 import Firebase from "../Databases/Firebase";
 import { CurrentDate, CurrentTime } from "../Databases/DateTime";
-import Footer from "./Footer";
 export default function Contact() {
   const [firstname, setFirstname] = useState("");
   const [lastname, setLastname] = useState("");
@@ -221,8 +220,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }
