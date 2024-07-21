@@ -4,8 +4,10 @@ import Team from "../Components/Team";
 import Event from "../Components/Event";
 import Contact from "../Components/Contact";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import Event2 from "../Components/Events/Event2";
 import Event3 from "../Components/Events/Event3";
+
 const Routes = [
   {
     path: "/",
@@ -13,6 +15,7 @@ const Routes = [
       <>
         <Navbar />
         <Home />
+        <Footer />
       </>
     ),
   },
@@ -22,6 +25,7 @@ const Routes = [
       <>
         <Navbar />
         <About />
+        <Footer />
       </>
     ),
   },
@@ -29,7 +33,9 @@ const Routes = [
     path: "/team",
     element: (
       <>
+        <Navbar />
         <Team />
+        <Footer />
       </>
     ),
   },
@@ -39,6 +45,7 @@ const Routes = [
       <>
         <Navbar />
         <Event />
+        <Footer />
       </>
     ),
   },
@@ -48,6 +55,7 @@ const Routes = [
       <>
         <Navbar />
         <Contact />
+        <Footer />
       </>
     ),
   },
