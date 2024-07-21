@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default function TeamCard({title}) {
+export default function TeamCard({member}) {
   return (
-    <div>{}</div>
+    <>
+    <div>{member.Fullname}</div>
+    <div>{member.Position}</div>
+    <br />
+    </>
   )
 }

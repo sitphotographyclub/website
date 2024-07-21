@@ -6,7 +6,7 @@ export default function Team() {
     <div>
       {TeamDetails.map((member)=>{
         console.log(member.Fullname);
-        return <TeamCard title={member}/>
+        return <TeamCard member={member}/>
       })}
     </div>
   )
