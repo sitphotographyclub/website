@@ -74,12 +74,12 @@ const Footer = () => {
         {/* footer left side end  */}
         {/* footer right side start  */}
         <div className="col-12 col-lg-6 px-4 ps-lg-5 mt-5 mt-lg-0 text-center text-lg-start">
-          <h5 className="text-white">Newsletter</h5>
+          <h5 className="text-white">SIT Photography Club</h5>
           <p>
             Don't miss out the world tours! - Subscribe now and become a memeber
             and enjoy a journey of discovery with us
           </p>
-          <form id="newsletter-form" className="my-4">
+          {/* <form id="newsletter-form" className="my-4">
             <div class="form-group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -101,19 +101,14 @@ const Footer = () => {
                 placeholder="Enter email"
                 name="email"
               />
-              {/* <small
-                    id="emailHelp"
-                    class="form-text text-mute text-secondary"
-                  >
-                    We'll never share your email with anyone else.
-                  </small> */}
+
               <input
                 type="submit"
                 value="Subscribe"
                 className="sit_btn bg-dark text-white"
               />
             </div>
-          </form>
+          </form> */}
           <div className="text-end mt-5">
             <ul className="d-flex align-items-center justify-content-center justify-content-lg-end gap-3 fs-4">
               <li>
@@ -144,7 +139,8 @@ const Footer = () => {
       <div className="row mt-5">
         <div className="col-12">
           <p className="text-center">
-            &copy; {new Date().getFullYear()} Indotravi. All Right Reserved.
+            &copy; {new Date().getFullYear()} SIT Photography Club. All Right
+            Reserved.
           </p>
         </div>
       </div>
