@@ -77,13 +77,13 @@ const Footer = () => {
             and enjoy a journey of discovery with us
           </p>
           {/* <form id="newsletter-form" className="my-4">
-            <div class="form-group">
+            <div className="form-group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
                 height="25"
                 fill="currentColor"
-                class="bi bi-envelope-paper-heart-fill ms-3"
+                className="bi bi-envelope-paper-heart-fill ms-3"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -93,7 +93,7 @@ const Footer = () => {
               </svg>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 aria-describedby="emailHelp"
                 placeholder="Enter email"
                 name="email"
@@ -110,22 +110,22 @@ const Footer = () => {
             <ul className="d-flex align-items-center justify-content-center justify-content-lg-end gap-3 fs-4">
               <li>
                 <a href="">
-                  <i class="bi bi-facebook"></i>
+                  <i className="bi bi-facebook"></i>
                 </a>
               </li>
               <li>
                 <a href="">
-                  <i class="bi bi-twitter"></i>
+                  <i className="bi bi-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="">
-                  <i class="bi bi-instagram"></i>
+                  <i className="bi bi-instagram"></i>
                 </a>
               </li>
               <li>
                 <a href="">
-                  <i class="bi bi-github"></i>
+                  <i className="bi bi-github"></i>
                 </a>
               </li>
             </ul>

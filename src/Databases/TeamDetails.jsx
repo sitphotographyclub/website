@@ -198,3 +198,4 @@ const TeamDetails =
             , Linkedin: ""
         },
     ]
+export default TeamDetails;
