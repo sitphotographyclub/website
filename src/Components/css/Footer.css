@@ -1,0 +1,28 @@
+footer ul li a {
+  display: inline-block;
+  color: var(--bs-secondary);
+  margin-top: 10px;
+}
+footer ul li a:hover {
+  color: var(--bs-warning);
+}
+footer #newsletter-form .form-group {
+  background-color: var(--bs-light);
+  border-radius: 2rem;
+  position: relative;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #newsletter-form .form-group input {
+  border: none;
+}
+
+footer #newsletter-form .form-group input:focus,
+footer #newsletter-form .form-group input:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}

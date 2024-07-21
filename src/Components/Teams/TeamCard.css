@@ -2,7 +2,8 @@
   border: 1px solid #eee;
   box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.09);
 }
-
+.card:hover {
+}
 .card img {
   height: 170px;
   width: 170px;

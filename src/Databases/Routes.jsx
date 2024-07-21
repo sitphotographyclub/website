@@ -11,7 +11,7 @@ const Routes = [
     path: "/",
     element: (
       <>
-        {/* <Navbar /> */}
+        <Navbar />
         <Home />
       </>
     ),
