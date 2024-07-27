@@ -18,6 +18,7 @@ export default function Event() {
                       image={event.Image}
                       des={event.Description}
                       location={event.Location}
+                      date={event.Date}
                     />
                   </NavLink>
                 </div>
