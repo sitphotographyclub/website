@@ -5,8 +5,8 @@ import Event from "../Components/Event";
 import Contact from "../Components/Contact";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import Event1 from "../Components/Events/Event1";
 import Event2 from "../Components/Events/Event2";
-import Event3 from "../Components/Events/Event3";
 
 const Routes = [
   {
@@ -65,7 +65,7 @@ const Routes = [
     element: (
       <>
         <Navbar />
-        <Event2 />
+        <Event1 />
       </>
     ),
   },
@@ -74,7 +74,7 @@ const Routes = [
     element: (
       <>
         <Navbar />
-        <Event3 />
+        <Event2 />
       </>
     ),
   },

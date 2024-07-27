@@ -10,23 +10,26 @@ export default function Event() {
           </div>
           <div className='grid gap-8 sm:grid-cols-2 lg:grid-cols-3 p-2 xl:p-5'>
               {EventDetails.map((event) => (
-                  <EventCard
+                <div key={event.id}>
+                  <NavLink to={`/event/event${event.id}`}>
+                    <EventCard
                       id={event.id}
                       title={event.Title}
                       image={event.Image}
                       des={event.Description}
                       location={event.Location}
                     />
-              )
-              )}
+                  </NavLink>
+                </div>
+              ))}
           </div>
 
       </div>
 
-      {/* <br />
+       <br />
       <NavLink to='/event/event1'>Event 1</NavLink>
       <br />
-      <NavLink to='/event/event2'>Event 2</NavLink> */}
+      <NavLink to='/event/event2'>Event 2</NavLink>
     </div>
   )
-}
+}``

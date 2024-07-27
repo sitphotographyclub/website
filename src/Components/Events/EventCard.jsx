@@ -1,16 +1,13 @@
-import { NavLink } from "react-router-dom";
-
 export const EventCard = ({ title, image, des, location, id }) => {
     return (
         <div>
-            <NavLink className="relative" to={`/event-${id}`}>
             <ul>
                 <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
                     
                         <div className="relative w-full aspect-video">
                             <img
                                 className="rounded w-full h-full object-cover"
-                                src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxrZXlib2FyZHxlbnwwfDB8fHwxNjk5NTI1MDAzfDA&ixlib=rb-4.0.3&q=80&w=1080"
+                                src={image}
                                 alt="Writey A.I"
                                 loading="lazy"
                             />
@@ -49,7 +46,6 @@ export const EventCard = ({ title, image, des, location, id }) => {
                     </div>
                 </li>
             </ul>
-            </NavLink>
         </div>
         
     );
