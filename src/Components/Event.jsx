@@ -25,10 +25,6 @@ export default function Event() {
           ))}
         </div>
       </div>
-      <br />
-      <NavLink to='/event/event1'>Event 1</NavLink>
-      <br />
-      <NavLink to='/event/event2'>Event 2</NavLink>
     </div>
   )
 }
