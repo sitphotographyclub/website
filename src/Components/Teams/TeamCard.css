@@ -1,21 +1,15 @@
-.card {
-  border: 1px solid #eee;
-  box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.09);
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.Name{
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120%;
 }
-.card:hover {
+.Position {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
-.card img {
-  height: 170px;
-  width: 170px;
-  margin: 0 auto;
-}
-.social-link-container a {
-  color: var(--bs-dark);
-  transition: all 0.3s ease;
-}
-.social-link-container a:hover {
-  color: var(--bs-secondary);
-}
-.social-link-container a i {
-  font-size: 1.3rem;
-}
+.Image{width: 12%;}

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function Event() {
   return (
     <div style={{ backgroundColor: 'black' }}>
-      <div className="max-w-7xl mx-auto my-8 px-2">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="flex justify-center text-2xl md:text-3xl text-white font-bold mb-4">
           Events
         </div>

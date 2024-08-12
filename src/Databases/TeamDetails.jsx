@@ -15,7 +15,7 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/arijit-bhattacharyya-517312282"
         },
         {
-            Fullname: "Swarnadeep Saha Poddar"
+            Fullname: "Swarnadeep S P"
             , Image: "swarnadeeppoddar.jpg"
             , Position: "Organizer"
             , Instagram: "https://www.instagram.com/swarnadeepsahapoddar"
@@ -37,7 +37,7 @@ const TeamDetails =
         },
         {
             Fullname: "Arpi Saha"
-            , Image: "aprisaha.jpg"
+            , Image: "arpisaha.jpg"
             , Position: "Technical Team"
             , Instagram: "https://www.instagram.com/iamarpisaha"
             , Linkedin: "https://www.linkedin.com/in/iamarpisaha"
