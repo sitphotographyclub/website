@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { set, ref } from "firebase/database";
 import Firebase from "../Databases/Firebase";
 import { CurrentDate, CurrentTime } from "../Databases/DateTime";
+
 export default function Contact() {
   const [firstname, setFirstname] = useState("");
   const [lastname, setLastname] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
   const submit = () => {
     set(
       ref(Firebase, `ContactForm /${CurrentDate} ${firstname} ${lastname} `),
@@ -21,6 +23,7 @@ export default function Contact() {
       }
     );
   };
+
   return (
     <>
       {/* <div>Contact</div>
@@ -62,17 +65,17 @@ export default function Contact() {
       <button onClick={submit}>Submit</button> */}
 
       {/* <!-- Contact form --> */}
-      <section className="bg-light py-3 py-md-5">
+      <section className="bg-gray-900 py-3 py-md-5">
         <div className="container">
           <div className="row justify-content-md-center">
             <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h3 className="fs-6 text-secondary mb-2 text-uppercase text-center">
+              <h3 className="fs-6 text-gray-400 mb-2 text-uppercase text-center">
                 Get in Touch
               </h3>
-              <h2 className="display-5 mb-4 mb-md-5 text-center">
+              <h2 className="display-5 mb-4 mb-md-5 text-center text-white">
                 We're always on the lookout to work with new visitors.
               </h2>
-              <hr className="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+              <hr className="w-50 mx-auto mb-5 mb-xl-9 border-gray-600" />
             </div>
           </div>
         </div>
@@ -90,49 +93,41 @@ export default function Contact() {
             <div className="col-12 col-lg-6">
               <div className="row justify-content-xl-center">
                 <div className="col-12 col-xl-11">
-                  <div className="bg-white border rounded shadow-sm overflow-hidden">
+                  <div className="bg-gray-800 border border-gray-700 rounded-lg shadow-lg overflow-hidden">
                     <form action="/" method="POST">
                       <div className="row gy-3 p-4 p-xl-5">
                         <div className="col-12 col-md-6">
-                          <label for="firstname" className="form-label">
+                          <label htmlFor="firstname" className="form-label text-white">
                             First Name <span className="text-danger">*</span>
                           </label>
                           <input
                             type="text"
-                            className="form-control"
+                            className="form-control bg-gray-700 text-white border-gray-600 placeholder-gray-500 focus:border-blue-500 focus:ring-blue-500"
                             id="firstname"
                             name="firstname"
-                            value={firstname}
-                            onChange={(e) => {
-                              setFirstname(e.target.value);
-                            }}
                             placeholder="First Name"
                             required
                           />
                         </div>
                         <div className="col-12 col-md-6">
-                          <label for="lastname" className="form-label">
+                          <label htmlFor="lastname" className="form-label text-white">
                             Last Name <span className="text-danger">*</span>
                           </label>
                           <input
                             type="text"
-                            className="form-control"
+                            className="form-control bg-gray-700 text-white border-gray-600 placeholder-gray-500 focus:border-blue-500 focus:ring-blue-500"
                             id="lastname"
                             name="lastname"
-                            value={lastname}
-                            onChange={(e) => {
-                              setLastname(e.target.value);
-                            }}
                             placeholder="Last Name"
                             required
                           />
                         </div>
                         <div className="col-12 col-md-6">
-                          <label for="email" className="form-label">
+                          <label htmlFor="email" className="form-label text-white">
                             Email <span className="text-danger">*</span>
                           </label>
                           <div className="input-group">
-                            <span className="input-group-text">
+                            <span className="input-group-text bg-gray-700 text-gray-300">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -146,24 +141,20 @@ export default function Contact() {
                             </span>
                             <input
                               type="email"
-                              className="form-control"
+                              className="form-control bg-gray-700 text-white border-gray-600 placeholder-gray-500 focus:border-blue-500 focus:ring-blue-500"
                               id="email"
                               name="email"
-                              value={email}
-                              onChange={(e) => {
-                                setEmail(e.target.value);
-                              }}
                               placeholder="Email"
                               required
                             />
                           </div>
                         </div>
                         <div className="col-12 col-md-6">
-                          <label for="phone" className="form-label">
+                          <label htmlFor="phone" className="form-label text-white">
                             Phone Number
                           </label>
                           <div className="input-group">
-                            <span className="input-group-text">
+                            <span className="input-group-text bg-gray-700 text-gray-300">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -177,38 +168,35 @@ export default function Contact() {
                             </span>
                             <input
                               type="tel"
-                              className="form-control"
+                              className="form-control bg-gray-700 text-white border-gray-600 placeholder-gray-500 focus:border-blue-500 focus:ring-blue-500"
                               id="phone"
                               name="phone"
-                              value={phone}
-                              onChange={(e) => {
-                                setPhone(e.target.value);
-                              }}
                               placeholder="Phone"
                             />
                           </div>
                         </div>
 
                         <div className="col-12">
-                          <label for="message" className="form-label">
+                          <label htmlFor="message" className="form-label text-white">
                             Message <span className="text-danger">*</span>
                           </label>
                           <textarea
-                            className="form-control"
+                            className="form-control bg-gray-700 text-white border-gray-600 placeholder-gray-500 focus:border-blue-500 focus:ring-blue-500"
                             id="message"
                             name="message"
                             rows="3"
-                            value={message}
-                            onChange={(e) => {
-                              setMessage(e.target.value);
-                            }}
-                            placeholder="Message"
+                            placeholder="Your message here..."
                             required
                           ></textarea>
                         </div>
                         <div className="col-12">
                           <div className="d-grid">
-                            <button onClick={submit}>Submit</button>
+                            <button
+                              type="submit"
+                              className="btn btn-primary text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300 ease-in-out"
+                            >
+                              Submit
+                            </button>
                           </div>
                         </div>
                       </div>
