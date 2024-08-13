@@ -1,15 +1,15 @@
 const TeamDetails =
-    [
-        {
-            Fullname: "Shreya Prasad"
-            , Image: "shreyaprasad.jpg"
-            , Position: "President"
-            , Instagram: "https://www.instagram.com/_justtt.shreya_"
-            , Linkedin: "https://www.linkedin.com/in/shreya-prasad-0b1397252p"
-        },
-        {
-            Fullname: "Arijit Bhattacharyya"
-            , Image: "arijitbhattacharyya.jpg"
+[
+    {
+        Fullname: "Shreya Prasad"
+        , Image: "shreyaprasad.jpg"
+        , Position: "President"
+        , Instagram: "https://www.instagram.com/_justtt.shreya_"
+        , Linkedin: "https://www.linkedin.com/in/shreya-prasad-0b1397252p"
+    },
+    {
+        Fullname: "Arijit Bhattacharyya"
+        , Image: "arijitbhattacharyya.jpg"
             , Position: "Secretary"
             , Instagram: "https://www.instagram.com/darshanxarijit_dz?igsh=M21pcWtqOHZnZTBq"
             , Linkedin: "https://www.linkedin.com/in/arijit-bhattacharyya-517312282"
@@ -22,11 +22,32 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/swarnadeep-saha-poddar"
         },
         {
-            Fullname: "Aniket Ghosh"
-            , Image: "aniketghosh.jpg"
-            , Position: "Technical Team"
+            Fullname: "Agniva Ghosh"
+            , Image: "agnivaghosh.jpg"
+            , Position: "Social Media Executive"
             , Instagram: ""
-            , Linkedin: "https://www.linkedin.com/in/aniket-ghosh-8b0b53281/"
+            , Linkedin: ""
+        },
+        {
+            Fullname: "Rounak Pramanik"
+            , Image: "rounakpramanik.jpg"
+            , Position: "Content Team"
+            , Instagram: "https://www.instagram.com/rounak.jpeg"
+            , Linkedin: "https://www.linkedin.com/in/rounak-pramanik-90128a227"
+        },
+        {
+            Fullname: "Biswarup Das"
+            , Image: "biswarupdas.jpg"
+            , Position: "Media Team"
+            , Instagram: "https://www.instagram.com/qt_uwuman"
+            , Linkedin: "https://www.linkedin.com/in/biswarup-das-a76606236"
+        },
+        {
+            Fullname: "Urbi Goswami"
+            , Image: "urbigoswami.jpg"
+            , Position: "PR/Marketing Team"
+            , Instagram: ""
+            , Linkedin: "https://www.linkedin.com/in/urbi-goswami-734b36255"
         },
         {
             Fullname: "Gourab Talukdar"
@@ -34,6 +55,13 @@ const TeamDetails =
             , Position: "Technical Team"
             , Instagram: "https://www.instagram.com/iamgourabtalukdar"
             , Linkedin: "https://www.linkedin.com/in/iamgourabtalukdar"
+        },
+        {
+            Fullname: "Aniket Ghosh"
+            , Image: "aniketghosh.jpg"
+            , Position: "Technical Team"
+            , Instagram: ""
+            , Linkedin: "https://www.linkedin.com/in/aniket-ghosh-8b0b53281/"
         },
         {
             Fullname: "Arpi Saha"
@@ -64,20 +92,6 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/dik-paul-4b834a28a"
         },
         {
-            Fullname: "Abhisek Ray"
-            , Image: "abhisekrau.jpg"
-            , Position: "Social Media Team"
-            , Instagram: "https://www.instagram.com/_.abhisekk._._"
-            , Linkedin: "https://www.linkedin.com/in/abhisek-ray-909101319"
-        },
-        {
-            Fullname: "Biswarup Das"
-            , Image: "biswarupdas.jpg"
-            , Position: "Media Team"
-            , Instagram: "https://www.instagram.com/qt_uwuman"
-            , Linkedin: "https://www.linkedin.com/in/biswarup-das-a76606236"
-        },
-        {
             Fullname: "Swarna Shekhar Sarkar"
             , Image: "swarnashekharsarkar.jpg"
             , Position: "Management Team"
@@ -92,6 +106,13 @@ const TeamDetails =
             , Linkedin: "Indrayaudh Sengupta"
         },
         {
+            Fullname: "Abhisek Ray"
+            , Image: "abhisekrau.jpg"
+            , Position: "Social Media Team"
+            , Instagram: "https://www.instagram.com/_.abhisekk._._"
+            , Linkedin: "https://www.linkedin.com/in/abhisek-ray-909101319"
+        },
+        {
             Fullname: "Mehak Sharma"
             , Image: "mehaksharma.jpg"
             , Position: "Social Media Team"
@@ -99,11 +120,11 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/mehak-sharma-128655276"
         },
         {
-            Fullname: "Anindita Chatterjee"
-            , Image: "aninditachatterjee.jpg"
-            , Position: "PR/Marketing Team"
-            , Instagram: "https://www.instagram.com/ani_exposurespot"
-            , Linkedin: "https://www.linkedin.com/in/anindita-chatterjee-23694925a"
+            Fullname: "Prattusha Paul"
+            , Image: "prattushapaul.jpg"
+            , Position: "Social Media Team"
+            , Instagram: "https://www.instagram.com/_prattu_shaa_"
+            , Linkedin: "https://www.linkedin.com/in/prattusha-paul-38b798287"
         },
         {
             Fullname: "Arnav Biswas"
@@ -113,18 +134,25 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/arnav-biswas-663775306"
         },
         {
+            Fullname: "Suryashis  Banerjee"
+            , Image: "suryashisbanerjee.jpg"
+            , Position: "Media Team"
+            , Instagram: "https://www.instagram.com/suryashis_banerjee"
+            , Linkedin: "https://www.linkedin.com/in/suryashis-banerjee-847614265"
+        },
+        {
+            Fullname: "Anindita Chatterjee"
+            , Image: "aninditachatterjee.jpg"
+            , Position: "PR/Marketing Team"
+            , Instagram: "https://www.instagram.com/ani_exposurespot"
+            , Linkedin: "https://www.linkedin.com/in/anindita-chatterjee-23694925a"
+        },
+        {
             Fullname: "Dorothy Das"
             , Image: "dorothydas.jpg"
             , Position: "PR/Marketing Team"
             , Instagram: "https://www.instagram.com/vibrant_ds"
             , Linkedin: "https://www.linkedin.com/in/dorothy-das-a6bb0b257"
-        },
-        {
-            Fullname: "Prattusha Paul"
-            , Image: "prattushapaul.jpg"
-            , Position: "Social Media Team"
-            , Instagram: "https://www.instagram.com/_prattu_shaa_"
-            , Linkedin: "https://www.linkedin.com/in/prattusha-paul-38b798287"
         },
 
         {
@@ -156,45 +184,10 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/sristi-bhaduri-795850220"
         },
         {
-            Fullname: "Suryashis  Banerjee"
-            , Image: "suryashisbanerjee.jpg"
-            , Position: "Media Team"
-            , Instagram: "https://www.instagram.com/suryashis_banerjee"
-            , Linkedin: "https://www.linkedin.com/in/suryashis-banerjee-847614265"
-        },
-        {
-            Fullname: "Urbi Goswami"
-            , Image: "urbigoswami.jpg"
-            , Position: "PR/Marketing Team"
-            , Instagram: ""
-            , Linkedin: "https://www.linkedin.com/in/urbi-goswami-734b36255"
-        },
-        {
-            Fullname: "Rounak Pramanik"
-            , Image: "rounakpramanik.jpg"
-            , Position: "Content Team"
-            , Instagram: "https://www.instagram.com/rounak.jpeg"
-            , Linkedin: "https://www.linkedin.com/in/rounak-pramanik-90128a227"
-        },
-        {
-            Fullname: "Arnav Biswas"
-            , Image: "arnavbiswas.jpg"
-            , Position: "Media Team"
-            , Instagram: " https://www.instagram.com/arnavistas_"
-            , Linkedin: " https://www.linkedin.com/in/arnav-biswas-663775306"
-        },
-        {
             Fullname: "Arumita Some"
             , Image: "arumitasome.jpg"
             , Position: "PR/Marketing Team"
             , Instagram: "https://www.instagram.com/ arumita_some_19"
-            , Linkedin: ""
-        },
-        {
-            Fullname: "Agniva Ghosh"
-            , Image: "agnivaghosh.jpg"
-            , Position: "Social Media Executive"
-            , Instagram: ""
             , Linkedin: ""
         },
     ]
