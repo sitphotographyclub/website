@@ -50,13 +50,6 @@ const TeamDetails =
             , Linkedin: ""
         },
         {
-            Fullname: "Aayush Kr Sah"
-            , Image: "aayushkrsah.jpg"
-            , Position: "Content Team"
-            , Instagram: ""
-            , Linkedin: ""
-        },
-        {
             Fullname: "Meher Ghimiray"
             , Image: "meherghimiray.jpg"
             , Position: "Content Team"
@@ -71,7 +64,7 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/dik-paul-4b834a28a"
         },
         {
-            Fullname: "Abhisek Rau"
+            Fullname: "Abhisek Ray"
             , Image: "abhisekrau.jpg"
             , Position: "Social Media Team"
             , Instagram: "https://www.instagram.com/_.abhisekk._._"
@@ -195,6 +188,13 @@ const TeamDetails =
             , Image: "arumitasome.jpg"
             , Position: "PR/Marketing Team"
             , Instagram: "https://www.instagram.com/ arumita_some_19"
+            , Linkedin: ""
+        },
+        {
+            Fullname: "Agniva Ghosh"
+            , Image: "agnivaghosh.jpg"
+            , Position: "Social Media Executive"
+            , Instagram: ""
             , Linkedin: ""
         },
     ]
