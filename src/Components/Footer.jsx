@@ -3,26 +3,61 @@ import "./css/Footer.css";
 import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="bg-dark text-secondary py-5 px-4 px-lg-5 mt-5">
+    <footer className="bg-dark text-secondary py-5 px-4 px-lg-5 border-top border-secondary mt-0">
       <div className="row my-3 mt-4">
         {/* footer left side start  */}
         <div className="col-12 col-lg-6 d-md-flex justify-content-between text-center text-md-start ">
           <ul>
             <h5 className="text-white mb-2">Pages</h5>
             <li>
-              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to="/">Home</NavLink>
+              <NavLink
+                className={(e) => {
+                  return e.isActive ? "active" : "";
+                }}
+                to="/"
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to="/about">About Us</NavLink>
+              <NavLink
+                className={(e) => {
+                  return e.isActive ? "active" : "";
+                }}
+                to="/about"
+              >
+                About Us
+              </NavLink>
             </li>
             <li>
-              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to="/team">Team</NavLink>
+              <NavLink
+                className={(e) => {
+                  return e.isActive ? "active" : "";
+                }}
+                to="/team"
+              >
+                Team
+              </NavLink>
             </li>
             <li>
-              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to="/event">Event</NavLink>
+              <NavLink
+                className={(e) => {
+                  return e.isActive ? "active" : "";
+                }}
+                to="/event"
+              >
+                Event
+              </NavLink>
             </li>
             <li>
-              <NavLink className={(e) => { return e.isActive ? "active" : ""; }} to='/contact'>Contact</NavLink>
+              <NavLink
+                className={(e) => {
+                  return e.isActive ? "active" : "";
+                }}
+                to="/contact"
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
           <ul>
@@ -71,7 +106,7 @@ const Footer = () => {
         {/* footer left side end  */}
         {/* footer right side start  */}
         <div className="col-12 col-lg-6 px-4 ps-lg-5 mt-5 mt-lg-0 text-center text-lg-start">
-          <h5 className="text-white">SIT Photography Club</h5>
+          <h5 className="text-white mb-3">SIT Photography Club</h5>
           <p>
             Don't miss out the world tours! - Subscribe now and become a memeber
             and enjoy a journey of discovery with us

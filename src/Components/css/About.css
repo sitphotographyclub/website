@@ -1,4 +1,7 @@
 /* #################################################### Team Leader Css Start  */
+#about-us * {
+  color: var(--bs-light);
+}
 #about-us ul {
   --col-gap: 2rem;
   --row-gap: 2rem;
@@ -234,7 +237,8 @@ body {
   height: 40px;
 }
 .timeline hr {
-  border-top: 3px solid #393939;
+  /* border-top: 3px solid #393939; */
+  border-top: 3px solid #fff;
   margin: 0;
   top: 17px;
   position: relative;
