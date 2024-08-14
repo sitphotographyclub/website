@@ -65,7 +65,7 @@ export default function Contact() {
       <button onClick={submit}>Submit</button> */}
 
       {/* <!-- Contact form --> */}
-      <section className="bg-black py-3">
+      <section className="bg-black py-3 mt-0">
         <div className="container">
           <div className="row justify-content-md-center">
             <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
