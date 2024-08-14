@@ -11,7 +11,7 @@ export const EventCard = ({ title, image, des, location, date }) => {
                             loading="lazy"
                         />
                         <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black to-transparent text-white">
-                            <h2 className="text-2xl font-bold">{title}</h2>
+                            <h2 className="text-2xl font-bold text-white">{title}</h2>
                             <p className="text-sm font-medium">{location}</p>
                             <p className="text-xs text-gray-400">{date}</p>
                         </div>

@@ -12,7 +12,7 @@ export const EventPageComp = ({ title, image, des, location, date, timing, rules
                     </div>
                     <div className="w-full lg:w-1/3 p-6 bg-gray-900">
                         <h1 className="text-2xl font-bold mb-2 text-white">{title}</h1>
-                        <p className="text-sm text-gray-400 mb-4">SIT Photography Club</p>
+                        <p className="text-sm text-white mb-4">SIT Photography Club</p>
                         <div className="mb-4">
                             <p className="text-sm text-gray-400">{date}</p>
                             <p className="text-sm text-gray-400">{timing}</p>
