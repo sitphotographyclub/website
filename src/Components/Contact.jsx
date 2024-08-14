@@ -65,7 +65,7 @@ export default function Contact() {
       <button onClick={submit}>Submit</button> */}
 
       {/* <!-- Contact form --> */}
-      <section className="bg-gray-900 py-3">
+      <section className="bg-black py-3">
         <div className="container">
           <div className="row justify-content-md-center">
             <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
@@ -93,7 +93,7 @@ export default function Contact() {
             <div className="col-12 col-lg-6">
               <div className="row justify-content-xl-center">
                 <div className="col-12 col-xl-11">
-                  <div className="bg-gray-800 border border-gray-700 rounded-lg shadow-lg overflow-hidden">
+                  <div className="bg-black border border-gray-700 rounded-lg shadow-lg overflow-hidden">
                     <form action="/" method="POST">
                       <div className="row gy-3 p-4 p-xl-5">
                         <div className="col-12 col-md-6">
