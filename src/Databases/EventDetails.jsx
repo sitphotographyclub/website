@@ -4,7 +4,7 @@ export const EventDetails = [
         Title: "Photography Club Orientation 2024",
         Image: "./Events/Orientation.jpg",
         Location: "E.E. Seminar Hall , Ground Floor ,SIT Campus",
-        Description: "Writey A.I is an AI tool that generates original, researched blog posts in minutes, provides content optimization advice, and works with a plagiarism-free rule.",
+        Description: "Elevate your photography game with our team! Join us at our Photography Seminar, Participate in fun activities and interactive sessions that will make this seminar an unforgettable experience. See you soon !",
         Tags: ["Content Generation", "Marketing", "SEO", "Writing"],
         Date: "12 August 2024",
         Timing: "02:00 AM - 05:00 PM",

@@ -23,7 +23,7 @@ export const EventCard = ({ title, image, des, location, date }) => {
                                 title="Pricing type"
                                 className="flex items-center cursor-pointer gap-1 bg-teal-600 text-white px-3 py-1 rounded-full hover:bg-teal-500 transition-colors duration-300 ease-in-out"
                             >
-                                <div>Know more...</div>
+                                <div>Register Now</div>
                             </li>
                         </ul>
                     </div>
