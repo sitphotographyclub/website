@@ -7,6 +7,13 @@ import "./css/Home/home.css";
 import "./design.css"
 import TeamDetails from "../Databases/TeamDetails";
 import TeamCard from "./Teams/TeamCard";
+import img2 from "../../public/Home/Slider/3.jpeg";
+import img3 from "../../public/Home/Slider/4.jpeg";
+import img4 from "../../public/Home/Slider/5.jpeg";
+import img5 from "../../public/Home/Slider/6.jpeg";
+import img6 from "../../public/Home/Slider/7.jpeg";
+import img7 from "../../public/Home/Slider/8.jpeg";
+
 export default function Home() {
   const TeamGB2 = [{
     Fullname: "Shreya Prasad"
@@ -73,14 +80,14 @@ export default function Home() {
       <div className="w-full bg-black text-center pt-4">
         <h2 className="Heading text-white text-5xl font-serif font-bold">Moment Captured By Us </h2>
         <div className="flex flex-col-reverse md:flex-row gap-10 pr-10 pl-5 pt-5">
-          <img className="md:w-1/3 w-full rounded" src="./Home/Slider/1.jpg" />
-          <img className="md:w-1/3 w-full rounded" src="./Home/Slider/1.jpg" />
-          <img className="md:w-1/3 w-full rounded" src="./Home/Slider/1.jpg" />
+          <img className="md:w-1/3 w-full rounded" src={img2} />
+          <img className="md:w-1/3 w-full rounded" src={img3}/>
+          <img className="md:w-1/3 w-full rounded" src={img4} />
         </div>
         <div className="flex flex-col-reverse md:flex-row gap-10 pr-10 pl-5 pt-4">
-          <img className="md:w-1/3 w-full rounded" src="./Home/Slider/1.jpg" />
-          <img className="md:w-1/3 w-full rounded" src="./Home/Slider/1.jpg" />
-          <img className="md:w-1/3 w-full rounded" src="./Home/Slider/1.jpg" />
+          <img className="md:w-1/3 w-full rounded" src={img5} />
+          <img className="md:w-1/3 w-full rounded" src={img6} />
+          <img className="md:w-1/3 w-full rounded" src={img7} />
         </div>
       </div>
       <h1 className="text-white Heading text-center p-4">Our G.B. Member</h1>
