@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/About.css";
-
+import "./design.css"
 export default function About() {
   const colors = ["#41516C", "#FBCA3E", "#E24A68", "#1B5F8C", "#4CADAD"];
   const leadersData = [
@@ -49,12 +49,12 @@ export default function About() {
     },
   ];
   return (
-    <div className="text-light py-5" style={{ background: "rgba(0,0,0,1)" }}>
+    <div className="text-light bg-black" style={{ background: "rgba(0,0,0,1)" }}>
       <div className="container" id="about-us">
         {/* ############################################################### About Us  section start  */}
         <div className="row">
           <div className="col-12 text-center">
-            <h1 className="text-center display-4 mb-3 mt-5">About Us</h1>
+            <h1 className="text-center display-4 Heading">About Us</h1>
             <p>
               Welcome to the SIT Photography Club, your gateway to exploring the
               world through the lens. Founded in July 2019, our club has grown

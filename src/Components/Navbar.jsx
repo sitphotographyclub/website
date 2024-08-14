@@ -10,7 +10,7 @@ export default function () {
 
   return (
     <>
-      <nav className="bg-black p-4 border-bottom border-secondary">
+      <nav className="bg-black p-4 ">
         <div className="container mx-auto ">
           <div className="block lg:hidden">
             <button

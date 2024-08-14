@@ -1,15 +1,15 @@
 const TeamDetails =
-[
-    {
-        Fullname: "Shreya Prasad"
-        , Image: "shreyaprasad.jpg"
-        , Position: "President"
-        , Instagram: "https://www.instagram.com/_justtt.shreya_"
-        , Linkedin: "https://www.linkedin.com/in/shreya-prasad-0b1397252p"
-    },
-    {
-        Fullname: "Arijit Bhattacharyya"
-        , Image: "arijitbhattacharyya.jpg"
+    [
+        {
+            Fullname: "Shreya Prasad"
+            , Image: "shreyaprasad.jpg"
+            , Position: "President"
+            , Instagram: "https://www.instagram.com/_justtt.shreya_"
+            , Linkedin: "https://www.linkedin.com/in/shreya-prasad-0b1397252p"
+        },
+        {
+            Fullname: "Arijit Bhattacharyya"
+            , Image: "arijitbhattacharyya.jpg"
             , Position: "Secretary"
             , Instagram: "https://www.instagram.com/darshanxarijit_dz?igsh=M21pcWtqOHZnZTBq"
             , Linkedin: "https://www.linkedin.com/in/arijit-bhattacharyya-517312282"
