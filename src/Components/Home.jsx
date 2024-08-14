@@ -67,10 +67,10 @@ export default function Home() {
           <p className="text-white Heading pt-2 pr-7 pl-7 pb-2 ">Our photography club is a community of passionate photographers who come together to share their love of the art. We organize regular meetups, workshops, and photo walks to help our members improve their skills and capture stunning images. Whether you're a beginner or a seasoned pro, you'll find a welcoming and supportive environment at our club.</p>
         </div>
         <div className="w-full md:w1/2  h-full">
-          <img src="./Home/Slider/1.jpg" className="w-full" />
+          <img src="./Home/Slider/1.jpg" className="w-full h-full" />
         </div>
       </div>
-      <div className="w-full bg-black text-center">
+      <div className="w-full bg-black text-center pt-4">
         <h2 className="Heading text-white text-5xl ">Moment Captured By Us </h2>
         <div className="flex flex-col-reverse md:flex-row gap-10 pr-10 pl-5 pt-5">
           <img className="md:w-1/3 w-full rounded" src="./Home/Slider/1.jpg" />
