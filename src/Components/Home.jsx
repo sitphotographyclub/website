@@ -77,7 +77,7 @@ export default function Home() {
           <img src="./Home/Slider/1.jpg" className="w-full h-full" />
         </div>
       </div>
-      <div className="w-full bg-black text-center pt-4 mt-96">
+      <div className="w-full bg-black text-center pt-4 mt-96 lg:mt-24">
         <h2 className="Heading text-white text-4xl font-serif font-bold">Moment Captured By Us </h2>
         <div className="flex flex-col-reverse md:flex-row gap-10 pr-10 pl-5 pt-5">
           <img className="md:w-1/3 w-full rounded" src={img2} />
