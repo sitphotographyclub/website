@@ -1,8 +1,10 @@
+import Img1 from "../../public/Events/Orientation.jpg";
+
 export const EventDetails = [
     {
         id: 1,
         Title: "Photography Club Orientation 2024",
-        Image: "./Events/Orientation.jpg",
+        Image: Img1,
         Location: "E.E. Seminar Hall , Ground Floor ,SIT Campus",
         Description: "Elevate your photography game with our team! Join us at our Photography Seminar, Participate in fun activities and interactive sessions that will make this seminar an unforgettable experience. See you soon !",
         Tags: ["Content Generation", "Marketing", "SEO", "Writing"],
