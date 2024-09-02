@@ -7,14 +7,16 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Event1 from "../Components/Events/Event1";
 import Event2 from "../Components/Events/Event2";
+import LandscapePhotographyMain from "../Components/Home2";
+import NavigationBar from "../Components/Navbar2";
 
 const Routes = [
   {
     path: "/",
     element: (
       <>
-        <Navbar />
-        <Home />
+        <NavigationBar />
+        <LandscapePhotographyMain />
         <Footer />
       </>
     ),
