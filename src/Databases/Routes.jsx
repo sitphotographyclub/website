@@ -9,6 +9,7 @@ import Event1 from "../Components/Events/Event1";
 import Event2 from "../Components/Events/Event2";
 import LandscapePhotographyMain from "../Components/Home2";
 import NavigationBar from "../Components/Navbar2";
+import { SecondPage } from "../Components/SecondPage";
 
 const Routes = [
   {
@@ -22,11 +23,11 @@ const Routes = [
     ),
   },
   {
-    path: "/about",
+    path: "/masterclass",
     element: (
       <>
-        <Navbar />
-        <About />
+        <NavigationBar />
+        <SecondPage />
         <Footer />
       </>
     ),

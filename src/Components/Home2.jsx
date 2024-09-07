@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LandscapePhotographyMain = () => {
-  const backgroundImage = "/Home/images/portfolio-02.jpg"; // Ensure this path is correct
+  const backgroundImage = "/Home/images/portfolio-03.jpg"; // Ensure this path is correct
 
   return (
     <div className="relative h-screen">
