@@ -2,7 +2,7 @@ import { Header } from "./Header"
 import { ImgComponent2 } from "./Imgcomponent2"
 import Img1 from "/Home/images/featured-01.jpg"
 export const ThirdPage = () => {
-    return <div className="bg-neutral-800 py-60">
+    return <div className="bg-neutral-800">
         <div className="container mx-auto px-4">
             <Header text="classes" subText="Learn from the best photographers in the world" />
             <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-6 gap-4 lg:pt-20">
