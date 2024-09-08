@@ -28,10 +28,10 @@ const LandscapePhotographyMain = () => {
         {/* Main content */}
         <div className="relative z-10 flex flex-col justify-center items-center text-white h-full">
           {/* Title and photographer */}
-          <h2 className="text-xl sm:text-2xl mb-2 tracking-wide uppercase text-white font-serif">Aniket Ghosh</h2>
-          <h1 className="text-4xl sm:text-7xl font-bold mb-8 text-white font-serif">SIT Photography</h1>
+          <h2 className="text-xl sm:text-2xl mb-2 tracking-wide uppercase text-white font-serif">Showcase & Events</h2>
+          <h1 className="text-4xl sm:text-7xl font-bold mb-8 text-white font-serif">SIT Photography Club</h1>
           
-          {/* Pricing and info section */}
+          {/* Pricing and info section 
           <div className="flex space-x-8 mb-16">
             <div className="text-center">
               <p className="text-3xl font-bold">149 €</p>
@@ -45,9 +45,9 @@ const LandscapePhotographyMain = () => {
               <p className="text-3xl font-bold">3h 55m</p>
               <p className="text-sm tracking-wide">DURATION</p>
             </div>
-          </div>
+          </div>*/}
           
-          {/* Details section */}
+          {/* Details section 
           <div className="flex space-x-16">
             <div className="text-center">
               <p className="text-3xl font-bold">11</p>
@@ -65,7 +65,8 @@ const LandscapePhotographyMain = () => {
               <p className="text-3xl font-bold">4K</p>
               <p className="text-sm tracking-wide">QUALITY</p>
             </div>
-          </div>
+          </div>*/}
+          
         </div>
       </div>
       <div className='container'>
