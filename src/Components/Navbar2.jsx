@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 const NavigationBar = () => {
   return (
@@ -11,7 +10,7 @@ const NavigationBar = () => {
         <a href="/" className="hover:text-gray-300 transition-colors">Home</a>
         <a href="/masterclass" className="hover:text-gray-300 transition-colors">Masterclass</a>
         <a href="/classes" className="hover:text-gray-300 transition-colors">Classes</a>
-        <a href="#" className="hover:text-gray-300 transition-colors">Workshops</a>
+        <a href="/events" className="hover:text-gray-300 transition-colors">Events</a>
         <a href="#" className="hover:text-gray-300 transition-colors">Login</a>
       </div>
     </nav>

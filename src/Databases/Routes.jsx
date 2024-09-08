@@ -10,6 +10,8 @@ import Event2 from "../Components/Events/Event2";
 import LandscapePhotographyMain from "../Components/Home2";
 import NavigationBar from "../Components/Navbar2";
 import { SecondPage } from "../Components/SecondPage";
+import { ThirdPage } from "../Components/ThirdPage";
+import { ForthPage } from "../Components/ForthPAge";
 
 const Routes = [
   {
@@ -33,21 +35,21 @@ const Routes = [
     ),
   },
   {
-    path: "/team",
+    path: "/classes",
     element: (
       <>
-        <Navbar />
-        <Team />
+        <NavigationBar />
+        <ThirdPage />
         <Footer />
       </>
     ),
   },
   {
-    path: "/event",
+    path: "/events",
     element: (
       <>
-        <Navbar />
-        <Event />
+        <NavigationBar />
+        <ForthPage />
         <Footer />
       </>
     ),
