@@ -1,7 +1,7 @@
 export const EventPageComp = ({ title, image, des, location, date, timing, rules }) => {
     return (
-        <div className="relative min-h-screen bg-black p-6 flex justify-center z-0">
-            <div className="max-w-6xl w-full bg-gray-900 shadow-lg rounded-lg overflow-hidden">
+        <div className="relative min-h-screen bg-neutral-800 p-6 flex justify-center z-0">
+            <div className="max-w-6xl w-full bg-neutral-800 shadow-lg rounded-lg overflow-hidden">
                 <div className="lg:flex">
                     <div className="w-full lg:w-2/3">
                         <img 
