@@ -11,7 +11,7 @@ const LandscapePhotographyMain = () => {
   return (
     <div className='bg-neutral-800'>
       {/* Navbar */}
-      <NavigationBar />
+
 
       <div className="relative h-screen">
         {/* Background Container */}

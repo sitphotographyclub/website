@@ -19,7 +19,7 @@ export const EventDetails = [
         ]
     },
     {
-        id: 3,
+        id: 2,
         Title: "Photography Club Seminar 2024",
         Image: Img3,
         Location: "E.E. Seminar Hall , Ground Floor ,SIT Campus",
@@ -35,7 +35,7 @@ export const EventDetails = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         Title: "Pristine",
         Image: Img2,
         Location: "SIT Campus",

@@ -2,7 +2,7 @@ export const ImgComponent = ({ img, text, subText }) => {
     return (
         <div className="relative h-3/4 overflow-hidden">
 
-            <img src={img} alt="img" className="w-full h-full object-cover" />
+            <img src={img} alt="img" className="w-full h-full object-cover rounded-lg" />
 
             <div className="absolute inset-0 bg-gradient-to-t from-neutral-800 via-transparent to-transparent"></div>
 
