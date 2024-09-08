@@ -10,7 +10,7 @@ export const SecondPage = () => {
     return (
         <div className="bg-neutral-800">
             <div className="container mx-auto px-4">
-                <Header text="Our Photos an Arts" subText="This is my site" />
+                <Header text="Through the Lens" subText="Capturing Moments, Telling Stories" />
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-10 lg:grid-cols-4 lg:gap-6 lg:pt-20 sm:gap-4 md:gap-5">
                     <ImgComponent img={Img1} text={"Kumartuli"} subText={"Durga Thakur"}/>
                     <ImgComponent img={Img2} text={"Spider"} subText={"The Snow"}/>
