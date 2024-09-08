@@ -25,6 +25,16 @@ const Routes = [
     ),
   },
   {
+    path: "/team",
+    element: (
+      <>
+        <Navbar />
+        <Team/>
+        <Footer />
+      </>
+    ),
+  },
+  {
     path: "/masterclass",
     element: (
       <>
@@ -45,11 +55,11 @@ const Routes = [
     ),
   },
   {
-    path: "/events",
+    path: "/event",
     element: (
       <>
-        <NavigationBar />
-        <ForthPage />
+        <Navbar/>
+        <Event />
         <Footer />
       </>
     ),
@@ -83,5 +93,16 @@ const Routes = [
       </>
     ),
   },
+  {
+    path: "/about",
+    element: (
+      <>
+        <Navbar />
+        <About />
+        <Footer/>
+      </>
+    ),
+  },
+
 ];
 export default Routes;

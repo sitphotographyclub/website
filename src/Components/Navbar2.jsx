@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { NavLink } from 'react-router-dom';
 const NavigationBar = () => {
   return (
     <nav className="absolute top-0 left-0 right-0 flex justify-between items-center px-12 py-8 text-white z-10">
