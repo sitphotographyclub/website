@@ -6,7 +6,7 @@ import ReviewComp from './LastPage';
 import NavigationBar from './Navbar2'; // Import your Navbar component
 
 const LandscapePhotographyMain = () => {
-  const backgroundImage = "/Home/images/portfolio-03.jpg"; // Ensure this path is correct
+  const backgroundImage = "/Home/images/back-bg-1.jpg"; // Ensure this path is correct
 
   return (
     <div className='bg-neutral-800'>
