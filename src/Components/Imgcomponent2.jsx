@@ -9,7 +9,7 @@ export const ImgComponent2 = ({ img, text, subText, des }) => {
             </div>
         </div>
         <div className="pt-8">
-            <p className="font-serif px-28 text-lg text-gray-100 text-center">{des}</p>
+            <p className="font-serif lg:px-28 text-lg text-gray-100 text-center">{des}</p>
         </div>
     </div>
 }
