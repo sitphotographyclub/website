@@ -29,6 +29,13 @@ const TeamDetails =
             , Linkedin: ""
         },
         {
+            Fullname: "Indrayaudh Sengupta"
+            , Image: "indrayaudhsengupta.jpg"
+            , Position: "PR Lead"
+            , Instagram: "https://www.instagram.com/_indrayaudh_official"
+            , Linkedin: "Indrayaudh Sengupta"
+        },
+        {
             Fullname: "Rounak Pramanik"
             , Image: "rounakpramanik.jpg"
             , Position: "Content Team"
@@ -43,32 +50,11 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/biswarup-das-a76606236"
         },
         {
-            Fullname: "Urbi Goswami"
-            , Image: "urbigoswami.jpg"
-            , Position: "PR/Marketing Team"
-            , Instagram: ""
-            , Linkedin: "https://www.linkedin.com/in/urbi-goswami-734b36255"
-        },
-        {
-            Fullname: "Gourab Talukdar"
-            , Image: "gourabtalukdar.jpg"
-            , Position: "Technical Team"
-            , Instagram: "https://www.instagram.com/iamgourabtalukdar"
-            , Linkedin: "https://www.linkedin.com/in/iamgourabtalukdar"
-        },
-        {
             Fullname: "Aniket Ghosh"
             , Image: "aniketghosh.jpg"
             , Position: "Technical Team"
             , Instagram: ""
             , Linkedin: "https://www.linkedin.com/in/aniket-ghosh-8b0b53281/"
-        },
-        {
-            Fullname: "Arpi Saha"
-            , Image: "arpisaha.jpg"
-            , Position: "Technical Team"
-            , Instagram: "https://www.instagram.com/iamarpisaha"
-            , Linkedin: "https://www.linkedin.com/in/iamarpisaha"
         },
         {
             Fullname: "Sayan Guha"
@@ -85,26 +71,13 @@ const TeamDetails =
             , Linkedin: "https://www.linkedin.com/in/meherghimiray"
         },
         {
-            Fullname: "Dik Paul"
-            , Image: "dikpaul.jpg"
-            , Position: "Content Team"
-            , Instagram: "https://www.instagram.com/___just_click___"
-            , Linkedin: "https://www.linkedin.com/in/dik-paul-4b834a28a"
-        },
-        {
             Fullname: "Swarna Shekhar Sarkar"
             , Image: "swarnashekharsarkar.jpg"
             , Position: "Management Team"
             , Instagram: "https://www.instagram.com/its_swarna20"
             , Linkedin: "https://www.linkedin.com/in/swarna-shekhar-sarkar-08b271245"
         },
-        {
-            Fullname: "Indrayaudh Sengupta"
-            , Image: "indrayaudhsengupta.jpg"
-            , Position: "Management Team"
-            , Instagram: "https://www.instagram.com/_indrayaudh_official"
-            , Linkedin: "Indrayaudh Sengupta"
-        },
+
         {
             Fullname: "Abhisek Ray"
             , Image: "abhisekrau.jpg"
@@ -175,20 +148,6 @@ const TeamDetails =
             , Position: "PR/Marketing Team"
             , Instagram: "_.poushali._"
             , Linkedin: "Paushali Karmakar"
-        },
-        {
-            Fullname: "Sristi Bhaduri"
-            , Image: "sristibhaduri.jpg"
-            , Position: "PR/Marketing Team"
-            , Instagram: "_.sunshinee.____"
-            , Linkedin: "https://www.linkedin.com/in/sristi-bhaduri-795850220"
-        },
-        {
-            Fullname: "Arumita Some"
-            , Image: "arumitasome.jpg"
-            , Position: "PR/Marketing Team"
-            , Instagram: "https://www.instagram.com/ arumita_some_19"
-            , Linkedin: ""
         },
     ]
 export default TeamDetails;
