@@ -1,0 +1,14 @@
+/* Default background for mobile screens */
+.background-container {
+    background-image: url('/Home/images/bg-sm-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Background for large screens */
+  @media (min-width: 768px) {
+    .background-container {
+      background-image: url('/Home/images/back-bg-1.jpg');
+    }
+  }
