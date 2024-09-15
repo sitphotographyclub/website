@@ -14,8 +14,8 @@ export default function TeamCard({ member }) {
   return (
     <div className='bg-black text-white h-full text-center p-10 rounded-xl border border-solid'>
       <img src={`./images/${member.Image}`} className=' rounded-lg' />
-      <p className="text-center Name pt-2">{member.Fullname}</p>
-      <p className="text-center Position p-3 text-xl">{member.Position}</p>
+      <p className="text-center Name pt-2 font-sans font-bold lg:text-xl text-white">{member.Fullname}</p>
+      <p className="text-center Position p-3 text-xl font-serif">{member.Position}</p>
       <div className='flex flex-row justify-center items-center gap-4'>
         <img src={Insta} className='Image' onClick={Ins}></img>
         <img src={Linke} className='Image' onClick={Lin}></img>
