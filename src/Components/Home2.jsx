@@ -15,8 +15,8 @@ const LandscapePhotographyMain = () => {
           <div className="absolute inset-0 bg-black opacity-30"></div>
         </div>
         <div className="relative z-10 flex flex-col justify-center items-center text-white h-full">
-          <h2 className="text-xl sm:text-2xl mb-2 tracking-wide uppercase text-white font-serif">Showcase & Events</h2>
-          <h1 className="text-4xl sm:text-7xl font-bold mb-8 text-white font-serif">SIT Photography Club</h1>
+          <h2 className="text-xl sm:text-2xl mb-2 tracking-wide uppercase text-white font-serif text-center">Showcase & Events</h2>
+          <h1 className="text-4xl sm:text-7xl font-bold mb-8 text-center text-white font-sans">SIT Photography Club</h1>
           
           {/* Pricing and info section 
           <div className="flex space-x-8 mb-16">

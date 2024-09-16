@@ -8,7 +8,7 @@ export const ImgComponent = ({ img, text, subText }) => {
 
             <div className="absolute bottom-4 left-0 right-0 text-center text-white">
                 <h2 className="text-3xl font-bold text-white font-serif">{text}</h2>
-                <p className="font-mono text-gray-50">{subText}</p>
+                <p className="font-sans text-gray-50">{subText}</p>
             </div>
         </div>
     );

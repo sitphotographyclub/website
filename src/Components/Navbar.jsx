@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./design.css";
-import logo from "../../public/logo.svg"; // Import the logo image
+import logo from "../../public/logo.svg";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,13 +15,13 @@ export default function Navbar() {
       <nav className="bg-black p-2">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center">
-            <img src={logo} alt="Club Logo" className="h-14 w-14" /> {/* Add the logo image */}
+            <img src={logo} alt="Club Logo" className="h-14 w-14" />
             <div className="block lg:hidden">
               <button
                 onClick={toggleMenu}
                 className="text-white focus:outline-none"
               >
-                <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                <svg className="h-6 w-6 fill-current text-white" viewBox="0 0 24 24">
                   {isOpen ? (
                     <path
                       fillRule="evenodd"
