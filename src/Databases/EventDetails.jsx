@@ -23,7 +23,7 @@ export const EventDetails = [
         Timing: "10:00 AM - 02:00 PM",
     },
     {
-        id: 3,
+        id: "Pristine",
         Title: "Pristine",
         Image: Img2,
         Location: "SIT Campus",

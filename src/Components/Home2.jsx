@@ -5,8 +5,8 @@ import { ForthPage } from './ForthPAge';
 import ReviewComp from './LastPage';
 import NavigationBar from './Navbar2'; // Import your Navbar component
 import './design.css'; // Import the CSS file
-
-
+import Landscape from '../../public/Home/Landscape.jpg'
+import Potrait from '../../public/Home/Potrait.jpg'
 const LandscapePhotographyMain = () => {
   return (
     <div className='bg-neutral-800'>
@@ -15,9 +15,18 @@ const LandscapePhotographyMain = () => {
           <div className="absolute inset-0 bg-black opacity-30"></div>
         </div>
         <div className="relative z-10 flex flex-col justify-center items-center text-white h-full">
-          <h2 className="text-xl sm:text-2xl mb-2 tracking-wide uppercase text-white font-serif text-center">Showcase & Events</h2>
-          <h1 className="text-4xl sm:text-7xl font-bold mb-8 text-center text-white font-sans">SIT Photography Club</h1>
-          
+        <img
+        src={Potrait}
+        alt="Mobile View"
+        className="block sm:hidden w-full"
+      />
+      
+      {/* Desktop Image */}
+      <img
+        src={Landscape}
+        alt="Desktop View"
+        className="hidden sm:block w-full"
+      />
           {/* Pricing and info section 
           <div className="flex space-x-8 mb-16">
             <div className="text-center">
