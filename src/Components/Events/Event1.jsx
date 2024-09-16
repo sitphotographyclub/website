@@ -1,12 +1,20 @@
+import { useEffect, useState } from "react";
 import { EventDetails } from "../../Databases/EventDetails";
 import { EventPageComp } from "./EventPage";
-
+import { useParams } from "react-router-dom";
 export default function Event1() {
-    const firstEvent = EventDetails[0];
+    const [firstEvent,setfirstEvent]=useState([]);
+    const params=useParams();
+    useEffect(()=>{
+        const data=params.id;
+        const user = EventDetails.find(user =>user.id==data)
+        setfirstEvent(user);
+        console.log(user);
+    },[])
 
     return (
         <div>
-            <EventPageComp
+<EventPageComp
                 key={firstEvent.id}
                 title={firstEvent.Title}
                 image={firstEvent.Image}
@@ -14,7 +22,6 @@ export default function Event1() {
                 location={firstEvent.Location}
                 timing={firstEvent.Timing}
                 date={firstEvent.Date}
-                rules={firstEvent.Rules}
             />
         </div>
     );

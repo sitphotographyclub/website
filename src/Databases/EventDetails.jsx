@@ -3,7 +3,7 @@ import Img2 from "../../public/Events/Prinstine.jpg"
 import Img3 from "../../public/Events/Seminar.jpg"
 export const EventDetails = [
     {
-        id: 1,
+        id: "Photography-Club-Orientation-2024",
         Title: "Photography Club Orientation 2024",
         Image: Img1,
         Location: "E.E. Seminar Hall , Ground Floor ,SIT Campus",
@@ -11,15 +11,9 @@ export const EventDetails = [
         Tags: ["Content Generation", "Marketing", "SEO", "Writing"],
         Date: "12 August 2024",
         Timing: "02:00 PM - 05:00 PM",
-        Rules: [
-            "Please follow the event guidelines and code of conduct.",
-            "No disruptive behavior.",
-            "Respect other participants.",
-            "Ask questions if you have any."
-        ]
     },
     {
-        id: 2,
+        id: "Photography-Club-Seminar-2024",
         Title: "Photography Club Seminar 2024",
         Image: Img3,
         Location: "E.E. Seminar Hall , Ground Floor ,SIT Campus",
@@ -27,12 +21,6 @@ export const EventDetails = [
         Tags: ["Content Generation", "Marketing", "SEO", "Writing"],
         Date: "8 April, 2024",
         Timing: "10:00 AM - 02:00 PM",
-        Rules: [
-            "Please follow the event guidelines and code of conduct.",
-            "No disruptive behavior.",
-            "Respect other participants.",
-            "Ask questions if you have any."
-        ]
     },
     {
         id: 3,
@@ -43,12 +31,5 @@ export const EventDetails = [
         Tags: ["Content Generation", "Marketing", "SEO", "Writing"],
         Date: "13 April 2023",
         Timing: "10:00 AM - 02:00 PM",
-        Rules: [
-            "Please follow the event guidelines and code of conduct.",
-            "No disruptive behavior.",
-            "Respect other participants.",
-            "Ask questions if you have any."
-        ]
     },
-
 ];

@@ -1,4 +1,4 @@
-export const EventPageComp = ({ title, image, des, location, date, timing, rules }) => {
+export const EventPageComp = ({ title, image, des, location, date, timing}) => {
     return (
         <div className="relative min-h-screen bg-neutral-800 p-6 flex justify-center z-0">
             <div className="max-w-6xl w-full bg-neutral-800 shadow-lg rounded-lg overflow-hidden">
@@ -34,9 +34,7 @@ export const EventPageComp = ({ title, image, des, location, date, timing, rules
                             <p className="text-sm text-gray-300 mb-4">{des}</p>
                             <h2 className="text-xl font-bold mb-2 text-white">Rules</h2>
                             <ul className="list-disc pl-6">
-                                {rules.map((rule, index) => (
-                                    <li key={index} className="text-sm text-gray-300 mb-2">{rule}</li>
-                                ))}
+
                             </ul>
                         </div>
                         <div className="w-full md:w-1/3 md:px-10">

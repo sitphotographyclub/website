@@ -6,8 +6,6 @@ import Contact from "../Components/Contact";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Event1 from "../Components/Events/Event1";
-import Event2 from "../Components/Events/Event2";
-import Event3 from "../Components/Events/Event3";
 import LandscapePhotographyMain from "../Components/Home2";
 import NavigationBar from "../Components/Navbar2";
 import { SecondPage } from "../Components/SecondPage";
@@ -77,29 +75,11 @@ const Routes = [
   },
 
   {
-    path: "/event/event1",
+    path: "/event/:id",
     element: (
       <>
         <Navbar />
         <Event1 />
-      </>
-    ),
-  },
-  {
-    path: "/event/event2",
-    element: (
-      <>
-        <Navbar />
-        <Event2 />
-      </>
-    ),
-  },
-  {
-    path: "/event/event3",
-    element: (
-      <>
-        <Navbar />
-        <Event3 />
       </>
     ),
   },
