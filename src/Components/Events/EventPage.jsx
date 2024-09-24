@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from 'react';
- // Make sure to adjust the import according to your setup
-import logo from "../../../public/logo.png"
-export const EventPageComp = ({ title, image, des, location, date, timing,link }) => {
-    const clk=()=>{
-        window.location.href = link;
-    }
-    const [register,setRegister]=useState("Register Now");
-    useEffect(()=>{
-        if(link=="")
-        {
+import logo from "../../../public/logo.png";
+
+export const EventPageComp = ({ title, image, des, location, date, timing, link }) => {
+    const clk = () => {
+        if (link !== "") {
+            window.location.href = link;
+        }
+    };
+
+    const [register, setRegister] = useState("Register Now");
+
+    useEffect(() => {
+        if (link === "") {
             setRegister("Registration Closed");
         }
-    },[])
+    }, [link]);
+
     return (
         <div className="relative min-h-screen bg-neutral-900 p-6 flex justify-center items-center">
             <div className="max-w-5xl w-full bg-neutral-800 shadow-2xl rounded-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105">
