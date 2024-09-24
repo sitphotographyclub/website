@@ -22,6 +22,7 @@ export default function Event1() {
                 location={firstEvent.Location}
                 timing={firstEvent.Timing}
                 date={firstEvent.Date}
+                link={firstEvent.Link}
             />
         </div>
     );

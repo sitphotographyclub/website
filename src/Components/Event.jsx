@@ -21,6 +21,7 @@ export default function Event() {
                   des={event.Description}
                   location={event.Location}
                   date={event.Date}
+                  link={event.Link}
                 />
               </NavLink>
             </div>

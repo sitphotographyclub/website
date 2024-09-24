@@ -1,7 +1,10 @@
 import React from 'react';
  // Make sure to adjust the import according to your setup
 import logo from "../../../public/logo.png"
-export const EventPageComp = ({ title, image, des, location, date, timing }) => {
+export const EventPageComp = ({ title, image, des, location, date, timing,link }) => {
+    const clk=()=>{
+        window.location.href = link;
+    }
     return (
         <div className="relative min-h-screen bg-neutral-900 p-6 flex justify-center items-center">
             <div className="max-w-5xl w-full bg-neutral-800 shadow-2xl rounded-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105">
@@ -26,7 +29,7 @@ export const EventPageComp = ({ title, image, des, location, date, timing }) => 
                             </svg>
                             <p className="text-md text-gray-300">{location}</p>
                         </div>
-                        <button className="w-full bg-teal-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-teal-500 transition-colors duration-300 ease-in-out mb-6">
+                        <button className="w-full bg-teal-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-teal-500 transition-colors duration-300 ease-in-out mb-6" onClick={clk}>
                             Register Now
                         </button>
                         <div className="flex flex-wrap gap-2">

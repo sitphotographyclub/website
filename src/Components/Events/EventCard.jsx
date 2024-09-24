@@ -1,4 +1,7 @@
-export const EventCard = ({ title, image, des, location, date }) => {
+export const EventCard = ({ title, image, des, location, date,link }) => {
+    const clk=()=>{
+        window.location.href = link;
+    }
     return (
         <div className="p-4">
             <ul>
@@ -21,9 +24,9 @@ export const EventCard = ({ title, image, des, location, date }) => {
                         <ul className="flex flex-wrap items-center justify-start text-sm gap-2">
                             <li
                                 title="Pricing type"
-                                className="flex items-center cursor-pointer gap-1 bg-teal-600 text-white px-3 py-1 rounded-full hover:bg-teal-500 transition-colors duration-300 ease-in-out"
+                                className="flex items-center cursor-pointer gap-1 "
                             >
-                                <div>Register Now</div>
+                                <button className=" bg-teal-600 text-white px-3 py-1 rounded-full hover:bg-teal-500 transition-colors duration-300 ease-in-out" onClick={clk}>Register Now</button>
                             </li>
                         </ul>
                     </div>

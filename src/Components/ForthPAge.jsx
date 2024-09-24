@@ -10,7 +10,7 @@ export const ForthPage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-10 lg:grid-cols-4 lg:gap-6 lg:pt-20 sm:gap-4 md:gap-5 ">
                 {EventDetails.map((event) => (
                     <div key={event.id}>
-                        <NavLink to={`/event/event${event.id}`}>
+                        <NavLink to={`/event/${event.id}`}>
                         <EventImgComp img={event.Image} text={event.Title} subText={event.Location} />
                         </NavLink>
                     </div>
