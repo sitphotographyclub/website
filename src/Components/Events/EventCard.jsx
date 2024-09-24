@@ -1,7 +1,16 @@
+import { useEffect, useState } from "react";
+
 export const EventCard = ({ title, image, des, location, date,link }) => {
     const clk=()=>{
         window.location.href = link;
     }
+    const [register,setRegister]=useState("Register Now");
+    useEffect(()=>{
+        if(link=="")
+        {
+            setRegister("Registration Closed");
+        }
+    },[])
     return (
         <div className="p-4">
             <ul>
@@ -26,7 +35,7 @@ export const EventCard = ({ title, image, des, location, date,link }) => {
                                 title="Pricing type"
                                 className="flex items-center cursor-pointer gap-1 "
                             >
-                                <button className=" bg-teal-600 text-white px-3 py-1 rounded-full hover:bg-teal-500 transition-colors duration-300 ease-in-out" onClick={clk}>Register Now</button>
+                                <button className=" bg-teal-600 text-white px-3 py-1 rounded-full hover:bg-teal-500 transition-colors duration-300 ease-in-out" onClick={clk}>{register}</button>
                             </li>
                         </ul>
                     </div>

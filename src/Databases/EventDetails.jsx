@@ -23,7 +23,7 @@ export const EventDetails = [
         Tags: ["Content Generation", "Marketing", "SEO", "Writing"],
         Date: "12 August 2024",
         Timing: "02:00 PM - 05:00 PM",
-        Link:"https://forms.gle/7g8ZMw3HuCnKknDj9"
+        Link:""
     },
     {
         id: "Photography-Club-Seminar-2024",
