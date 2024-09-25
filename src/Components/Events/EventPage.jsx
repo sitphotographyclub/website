@@ -9,10 +9,12 @@ export const EventPageComp = ({ title, image, des, location, date, timing, link 
     };
 
     const [register, setRegister] = useState("Register Now");
+    const [btnstate,setBtnstate] = useState(false);
 
     useEffect(() => {
         if (link === "") {
             setRegister("Registration Closed");
+            setBtnstate(true);
         }
     }, [link]);
 
@@ -40,7 +42,7 @@ export const EventPageComp = ({ title, image, des, location, date, timing, link 
                             </svg>
                             <p className="text-md text-gray-300">{location}</p>
                         </div>
-                        <button className="w-full bg-teal-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-teal-500 transition-colors duration-300 ease-in-out mb-6" onClick={clk}>
+                        <button className="w-full bg-teal-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-teal-500 transition-colors duration-300 ease-in-out mb-6" onClick={clk} disabled={btnstate}>
                             {register}
                         </button>
                         <div className="flex flex-wrap gap-2">

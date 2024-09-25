@@ -5,10 +5,12 @@ export const EventCard = ({ title, image, des, location, date,link }) => {
         window.location.href = link;
     }
     const [register,setRegister]=useState("Register Now");
+    const [btnstate,setBtnstate] = useState(false);
     useEffect(()=>{
         if(link=="")
         {
             setRegister("Registration Closed");
+            setBtnstate(true);
         }
     },[])
     return (
@@ -35,7 +37,7 @@ export const EventCard = ({ title, image, des, location, date,link }) => {
                                 title="Pricing type"
                                 className="flex items-center cursor-pointer gap-1 "
                             >
-                                <button className=" bg-teal-600 text-white px-3 py-1 rounded-full hover:bg-teal-500 transition-colors duration-300 ease-in-out" onClick={clk}>{register}</button>
+                                <button className=" bg-teal-600 text-white px-3 py-1 rounded-full hover:bg-teal-500 transition-colors duration-300 ease-in-out" onClick={clk} disabled={btnstate}>{register}</button>
                             </li>
                         </ul>
                     </div>
