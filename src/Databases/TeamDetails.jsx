@@ -66,7 +66,7 @@ const TeamDetails =
         {
             Fullname: "Meher Ghimiray"
             , Image: "meherghimiray.jpg"
-            , Position: "Content Team"
+            , Position: "Design Team"
             , Instagram: "https://www.instagram.com/mehertastic_?igsh=MXc0bXY4eXUwMjY2NQ=="
             , Linkedin: "https://www.linkedin.com/in/meherghimiray"
         },
@@ -79,7 +79,7 @@ const TeamDetails =
         },
 
         {
-            Fullname: "Abhisek Ray"
+            Fullname: "Abhisek Ray"Paush
             , Image: "abhisekrau.jpg"
             , Position: "Social Media Team"
             , Instagram: "https://www.instagram.com/_.abhisekk._._"
@@ -88,7 +88,7 @@ const TeamDetails =
         {
             Fullname: "Mehak Sharma"
             , Image: "mehaksharma.jpg"
-            , Position: "Social Media Team"
+            , Position: "Media Team"
             , Instagram: "https://www.instagram.com/mehak_sharma604"
             , Linkedin: "https://www.linkedin.com/in/mehak-sharma-128655276"
         },
@@ -145,7 +145,7 @@ const TeamDetails =
         {
             Fullname: "Paushali Karmakar"
             , Image: "paushalikarmakar.jpg"
-            , Position: "PR/Marketing Team"
+            , Position: "Content Team"
             , Instagram: "_.poushali._"
             , Linkedin: "Paushali Karmakar"
         },
