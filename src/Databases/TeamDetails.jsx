@@ -79,7 +79,7 @@ const TeamDetails =
         },
 
         {
-            Fullname: "Abhisek Ray"Paush
+            Fullname: "Abhisek Ray"
             , Image: "abhisekrau.jpg"
             , Position: "Social Media Team"
             , Instagram: "https://www.instagram.com/_.abhisekk._._"
