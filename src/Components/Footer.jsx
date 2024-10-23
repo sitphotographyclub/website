@@ -25,13 +25,25 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li><NavLink className={(e) => e.isActive ? "active" : ""} to="/contact">Contact</NavLink></li>
                   <li>
-              <a href="/">Instagram</a>
+              <a href="https://www.instagram.com/sitphotoclub/" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Instagram
+              </a>
             </li>
             <li>
-              <a href="/">Facebook</a>
+              <a href="https://www.facebook.com/sitphotographyclubofficial/" 
+                target="_blank" 
+                rel="noopener noreferrer">
+                Facebook
+              </a>
             </li>
             <li>
-              <a href="/">Linkedin</a>
+              <a href="https://www.linkedin.com/company/sit-photography-club/"
+                target="_blank" 
+                rel="noopener noreferrer">
+                Linkedin
+              </a>
             </li>
           </ul>
               </div>
