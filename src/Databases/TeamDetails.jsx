@@ -146,7 +146,7 @@ const TeamDetails =
             Fullname: "Paushali Karmakar"
             , Image: "paushalikarmakar.jpg"
             , Position: "Content Team"
-            , Instagram: "_.poushali._"
+            , Instagram: "https://www.instagram.com/_.poushali._?igsh=MXBseHpkYm1peGU1"
             , Linkedin: "Paushali Karmakar"
         },
     ]
