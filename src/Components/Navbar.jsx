@@ -15,7 +15,9 @@ export default function Navbar() {
       <nav className="bg-black p-2 relative">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center justify-between w-full lg:w-auto">
-            <img src={logo} alt="Club Logo" className="h-14 w-14" />
+           <Link to="https://www.sitphotography.club/">
+             <img src={logo} alt="Club Logo" className="h-14 w-14" />
+             </Link>
             <div className="block lg:hidden">
               <button
                 onClick={toggleMenu}

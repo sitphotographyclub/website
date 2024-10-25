@@ -12,4 +12,7 @@
   font-weight: 600;
   font-style: normal;
 }
-.Image{width: 12%;}
+.Image {
+  width: 12%;
+  cursor: pointer;
+}
