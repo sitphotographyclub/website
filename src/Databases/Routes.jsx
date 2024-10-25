@@ -11,6 +11,7 @@ import NavigationBar from "../Components/Navbar2";
 import { SecondPage } from "../Components/SecondPage";
 import { ThirdPage } from "../Components/ThirdPage";
 import { ForthPage } from "../Components/ForthPAge";
+import Gallery from "../Components/Gallery";
 
 const Routes = [
   {
@@ -29,26 +30,6 @@ const Routes = [
       <>
         <Navbar />
         <Team/>
-        <Footer />
-      </>
-    ),
-  },
-  {
-    path: "/masterclass",
-    element: (
-      <>
-        <NavigationBar />
-        <SecondPage />
-        <Footer />
-      </>
-    ),
-  },
-  {
-    path: "/classes",
-    element: (
-      <>
-        <NavigationBar />
-        <ThirdPage />
         <Footer />
       </>
     ),
@@ -89,6 +70,16 @@ const Routes = [
       <>
         <Navbar />
         <About />
+        <Footer/>
+      </>
+    ),
+  },
+  {
+    path: "/gallery",
+    element: (
+      <>
+        <Navbar />
+        <Gallery />
         <Footer/>
       </>
     ),
