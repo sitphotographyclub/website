@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/About.css";
 import "./design.css"
+
 export default function About() {
   const colors = ["#41516C", "#FBCA3E", "#E24A68", "#1B5F8C", "#4CADAD"];
   const leadersData = [
@@ -49,7 +50,11 @@ export default function About() {
     },
   ];
   return (
+    
+
+    
     <div className="text-light bg-black" style={{ background: "rgba(0,0,0,1)" }}>
+
       <div className="container" id="about-us">
         {/* ############################################################### About Us  section start  */}
         <div className="row">
