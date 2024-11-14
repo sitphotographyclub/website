@@ -38,16 +38,24 @@ const TeamDetails = [
   {
     Fullname: "Rounak Pramanik",
     Image: "rounakpramanik.jpg",
-    Position: "Content Team",
+    Position: "Content Lead",
     Instagram: "https://www.instagram.com/rounak.jpeg",
     Linkedin: "https://www.linkedin.com/in/rounak-pramanik-90128a227",
   },
   {
     Fullname: "Biswarup Das",
     Image: "biswarupdas.jpg",
-    Position: "Media Team",
+    Position: "Media Lead",
     Instagram: "https://www.instagram.com/qt_uwuman",
     Linkedin: "https://www.linkedin.com/in/biswarup-das-a76606236",
+  },
+  {
+    Fullname: "Sayan Guha",
+    Image: "sayanguha.jpg",
+    Position: "Editing Lead",
+    Instagram:
+      "https://www.instagram.com/the_dsmxtreme?igsh=MTAwaDk1MWV3am8wdg==",
+    Linkedin: "",
   },
   {
     Fullname: "Aniket Ghosh",
@@ -55,14 +63,6 @@ const TeamDetails = [
     Position: "Technical Team",
     Instagram: "",
     Linkedin: "https://www.linkedin.com/in/aniket-ghosh-8b0b53281/",
-  },
-  {
-    Fullname: "Sayan Guha",
-    Image: "sayanguha.jpg",
-    Position: "Content Team",
-    Instagram:
-      "https://www.instagram.com/the_dsmxtreme?igsh=MTAwaDk1MWV3am8wdg==",
-    Linkedin: "",
   },
   {
     Fullname: "Meher Ghimiray",
@@ -173,13 +173,13 @@ const TeamDetails = [
     Fullname: "Sanjana Sharma",
     Image: "sanjana.jpg",
     Position: "Social media assistant",
-    Instagram: "https://instagram.com/san._.naa_",
-    Linkedin: "https://www.linkedin.com/",
+    Instagram: "san._.naa_",
+    Linkedin: "Sanjana Sharma",
   },
   {
     Fullname: "Zenith Roy",
     Image: "zenith.jpg",
-    Position: "E-sports",
+    Position: "Digital Marketing Designer",
     Instagram: "https://www.instagram.com/zenithroyy",
     Linkedin:
       "https://www.linkedin.com/in/zenith-roy-4a2694232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -205,8 +205,8 @@ const TeamDetails = [
     Fullname: "Ronak Karmakar",
     Image: "ronak.jpg",
     Position: "Public relation assistant",
-    Instagram: "https://instagram.com/be_ronak",
-    Linkedin: "https://www.linkedin.com/ronak-karmakar-420870318",
+    Instagram: "be_ronak",
+    Linkedin: "ronak-karmakar-420870318",
   },
   {
     Fullname: "Soupatri Maitra",
@@ -235,7 +235,7 @@ const TeamDetails = [
     Fullname: "Sonia Saha",
     Image: "sonia.jpg",
     Position: "Investor Relations Assistant",
-    Instagram: "https://instagram.com/_sonia_shh",
+    Instagram: "@_sonia_shh",
     Linkedin:
       "https://www.linkedin.com/in/sonia-saha-4ba7b2309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
@@ -252,7 +252,7 @@ const TeamDetails = [
     Fullname: "Sunip Halder",
     Image: "sunip.jpg",
     Position: "Video and VFX Editor",
-    Instagram: "https://instagram.com/iamsuniphalder",
+    Instagram: "@iamsuniphalder",
     Linkedin: "https://www.linkedin.com/in/sunip-halder-6294692a7/",
   },
   {
@@ -277,8 +277,8 @@ const TeamDetails = [
     Fullname: "Isha Singh",
     Image: "isha.jpg",
     Position: "Photography",
-    Instagram: "https://instagram.com/_ishu_0310_",
-    Linkedin: "https://www.linkedin.com/",
+    Instagram: "_ishu_0310_",
+    Linkedin: "Isha Singh",
   },
   {
     Fullname: "Adipta Chakraborty",
@@ -292,8 +292,8 @@ const TeamDetails = [
     Fullname: "Aashmita Basu",
     Image: "aashmita.jpg",
     Position: "Influencer Outreach Coordinator",
-    Instagram: "https://instagram.com/",
-    Linkedin: "https://www.linkedin.com/",
+    Instagram: "Not available.",
+    Linkedin: "Not yet.",
   },
   {
     Fullname: "Sagnik Das",
@@ -305,18 +305,96 @@ const TeamDetails = [
       "https://www.linkedin.com/in/sagnik-das-ab0754326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    Fullname: "Aditi Bhattacharjee",
-    Image: "aditi.jpg",
-    Position: "Photo editor",
-    Instagram: "https://instagram.com/sunlit_raindrops",
-    Linkedin: "Aditi Bhattacharjee",
-  },
-  {
     Fullname: "Soumili Dutta",
     Image: "soumili.jpg",
     Position: "Member",
-    Instagram: "https://instagram.com/disoumili",
+    Instagram: "@disoumili",
     Linkedin: "https://www.linkedin.com/in/soumili-dutta-94838b326/",
+  },
+  {
+    Fullname: "Sahim Sha",
+    Image: "sahim.jpg",
+    Position: "Content Editor",
+    Instagram: "https://www.instagram.com/sahim.sha",
+    Linkedin: "https://www.linkedin.com/in/sahim-sha",
+  },
+  {
+    Fullname: "Yuvraj Sinha",
+    Image: "yuvraj.jpg",
+    Position: "Video and photo editor",
+    Instagram: "Im_anonymous01._",
+    Linkedin: "Yuvraj sinha",
+  },
+  {
+    Fullname: "Aritra Bhadra",
+    Image: "aritra.jpg",
+    Position: "Photographer",
+    Instagram:
+      "https://www.instagram.com/aritra_bhadra_/profilecard/?igsh=MWQ1ZXYxNHRlMndodw==",
+    Linkedin:
+      "https://www.linkedin.com/in/aritra-bhadra-papan-6a726b321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    Fullname: "Joydeep Sutradhar",
+    Image: "joydeep.jpg",
+    Position: "Social media Trend analyst",
+    Instagram:
+      "https://www.instagram.com/itz.your_joy/profilecard/?igsh=MWZyb3FpdXY0c2x2eQ==",
+    Linkedin:
+      "https://www.linkedin.com/in/joydeep-sutradhar-182203285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    Fullname: "Aditi Bhattacharjee",
+    Image: "aditi.jpg",
+    Position: "Photo editor",
+    Instagram: "sunlit_raindrops",
+    Linkedin:
+      "https://www.linkedin.com/in/aditi-bhattacharjee-072828296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    Fullname: "Debangshi Debnath",
+    Image: "debangshi.jpg",
+    Position: "Content Writer",
+    Instagram: "__debangshi.07__",
+    Linkedin: "Debangshi Debnath",
+  },
+  {
+    Fullname: "Anindita Sarkar",
+    Image: "anindita.jpg",
+    Position: "Story teller from social media team",
+    Instagram: "@aninditasarkar",
+    Linkedin: "Anindita Sarkar",
+  },
+  {
+    Fullname: "Somoshree Mazumder",
+    Image: "somoshree.jpg",
+    Position: "Content Writer",
+    Instagram:
+      "https://www.instagram.com/_somoshree_m?igsh=MTlyampqbHFzM2locg==",
+    Linkedin:
+      "https://www.linkedin.com/in/somoshree-mazumder-3375a8324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    Fullname: "Kali koushik mukherjee",
+    Image: "kali.jpg",
+    Position: "Junior executive member (public relations and marketing team )",
+    Instagram: "k_o_u_s_h_i_k_74",
+    Linkedin:
+      "https://www.linkedin.com/in/kali-koushik-mukherjee-55a7a6334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    Fullname: "Anis kumar",
+    Image: "anis.jpg",
+    Position: "Design assistant",
+    Instagram: "aniskashyap_",
+    Linkedin: "anis kashyap",
+  },
+  {
+    Fullname: "Raumakh Paul",
+    Image: "raumakh.jpg",
+    Position: "Content",
+    Instagram: "aeolian_dominant",
+    Linkedin: "Raumakh Paul",
   },
 ];
 export default TeamDetails;
