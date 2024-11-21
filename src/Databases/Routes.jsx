@@ -12,7 +12,7 @@ import { SecondPage } from "../Components/SecondPage";
 import { ThirdPage } from "../Components/ThirdPage";
 import { ForthPage } from "../Components/ForthPAge";
 import Gallery from "../Components/Gallery";
-
+import Ictdsc from "../Components/Ictdsc";
 const Routes = [
   {
     path: "/",
@@ -81,6 +81,14 @@ const Routes = [
         <Navbar />
         <Gallery />
         <Footer/>
+      </>
+    ),
+  },
+  {
+    path: "/ictdsc",
+    element: (
+      <>
+      <Ictdsc />
       </>
     ),
   },
