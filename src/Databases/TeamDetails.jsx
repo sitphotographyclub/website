@@ -116,6 +116,13 @@ const TeamDetails = [
     Linkedin: "https://www.linkedin.com/in/suryashis-banerjee-847614265",
   },
   {
+    Fullname: "Bhaskar Kumar",
+    Image: "bhaskarkumar.jpg",
+    Position: "Media Team",
+    Instagram: "https://www.instagram.com/bhaskar_kumar_",
+    Linkedin: "https://www.linkedin.com/in/bhaskar-kumar-35a527284",
+  },
+  {
     Fullname: "Anindita Chatterjee",
     Image: "aninditachatterjee.jpg",
     Position: "PR/Marketing Team",
@@ -173,7 +180,7 @@ const TeamDetails = [
     Fullname: "Sanjana Sharma",
     Image: "sanjana.jpg",
     Position: "Social media assistant",
-    Instagram: "san._.naa_",
+    Instagram: "https://www.instagram.com/san._.naa_",
     Linkedin: "Sanjana Sharma",
   },
   {
@@ -205,7 +212,7 @@ const TeamDetails = [
     Fullname: "Ronak Karmakar",
     Image: "ronak.jpg",
     Position: "Public relation assistant",
-    Instagram: "be_ronak",
+    Instagram: "https://www.instagram.com/_sonia_shhbe_ronak",
     Linkedin: "ronak-karmakar-420870318",
   },
   {
@@ -235,7 +242,7 @@ const TeamDetails = [
     Fullname: "Sonia Saha",
     Image: "sonia.jpg",
     Position: "Investor Relations Assistant",
-    Instagram: "@_sonia_shh",
+    Instagram: "https://www.instagram.com/_sonia_shh",
     Linkedin:
       "https://www.linkedin.com/in/sonia-saha-4ba7b2309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
@@ -252,7 +259,7 @@ const TeamDetails = [
     Fullname: "Sunip Halder",
     Image: "sunip.jpg",
     Position: "Video and VFX Editor",
-    Instagram: "@iamsuniphalder",
+    Instagram: "https://www.instagram.com/iamsuniphalder",
     Linkedin: "https://www.linkedin.com/in/sunip-halder-6294692a7/",
   },
   {
@@ -277,7 +284,7 @@ const TeamDetails = [
     Fullname: "Isha Singh",
     Image: "isha.jpg",
     Position: "Photography",
-    Instagram: "_ishu_0310_",
+    Instagram: "https://www.instagram.com/_ishu_0310_",
     Linkedin: "Isha Singh",
   },
   {
@@ -308,7 +315,7 @@ const TeamDetails = [
     Fullname: "Soumili Dutta",
     Image: "soumili.jpg",
     Position: "Member",
-    Instagram: "@disoumili",
+    Instagram: "https://www.instagram.com/disoumili",
     Linkedin: "https://www.linkedin.com/in/soumili-dutta-94838b326/",
   },
   {
@@ -322,7 +329,7 @@ const TeamDetails = [
     Fullname: "Yuvraj Sinha",
     Image: "yuvraj.jpg",
     Position: "Video and photo editor",
-    Instagram: "Im_anonymous01._",
+    Instagram: "https://www.instagram.com/Im_anonymous01._",
     Linkedin: "Yuvraj sinha",
   },
   {
@@ -347,7 +354,7 @@ const TeamDetails = [
     Fullname: "Aditi Bhattacharjee",
     Image: "aditi.jpg",
     Position: "Photo editor",
-    Instagram: "sunlit_raindrops",
+    Instagram: "https://www.instagram.com/sunlit_raindrops",
     Linkedin:
       "https://www.linkedin.com/in/aditi-bhattacharjee-072828296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
@@ -355,14 +362,14 @@ const TeamDetails = [
     Fullname: "Debangshi Debnath",
     Image: "debangshi.jpg",
     Position: "Content Writer",
-    Instagram: "__debangshi.07__",
+    Instagram: "https://www.instagram.com/__debangshi.07__",
     Linkedin: "Debangshi Debnath",
   },
   {
     Fullname: "Anindita Sarkar",
     Image: "anindita.jpg",
     Position: "Story teller from social media team",
-    Instagram: "@aninditasarkar",
+    Instagram: "https://www.instagram.com/aninditasarkar",
     Linkedin: "Anindita Sarkar",
   },
   {
@@ -378,7 +385,7 @@ const TeamDetails = [
     Fullname: "Kali koushik mukherjee",
     Image: "kali.jpg",
     Position: "Junior executive member (public relations and marketing team )",
-    Instagram: "k_o_u_s_h_i_k_74",
+    Instagram: "https://www.instagram.com/k_o_u_s_h_i_k_74",
     Linkedin:
       "https://www.linkedin.com/in/kali-koushik-mukherjee-55a7a6334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
