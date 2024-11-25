@@ -118,7 +118,7 @@ const TeamDetails = [
   {
     Fullname: "Bhaskar Kumar",
     Image: "bhaskarkumar.jpg",
-    Position: "Media Team",
+    Position: "Social Media Designer",
     Instagram: "https://www.instagram.com/bhaskar_kumar_",
     Linkedin: "https://www.linkedin.com/in/bhaskar-kumar-35a527284",
   },
