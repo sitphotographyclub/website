@@ -103,7 +103,7 @@ const TeamDetails = [
   },
   {
     Fullname: "Arnav Biswas",
-    Image: "arnavbiswas.jpg",
+    Image: "arnavbiswas.jpeg",
     Position: "Media Team",
     Instagram: "https://www.instagram.com/arnavistas_",
     Linkedin: "https://www.linkedin.com/in/arnav-biswas-663775306",
@@ -391,7 +391,7 @@ const TeamDetails = [
   },
   {
     Fullname: "Raumakh Paul",
-    Image: "raumakh.jpg",
+    Image: "raukhmaukhpaul.jpeg",
     Position: "Content",
     Instagram: "aeolian_dominant",
     Linkedin: "Raumakh Paul",
