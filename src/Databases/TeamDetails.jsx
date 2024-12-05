@@ -390,13 +390,6 @@ const TeamDetails = [
       "https://www.linkedin.com/in/kali-koushik-mukherjee-55a7a6334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
-    Fullname: "Anis kumar",
-    Image: "anis.jpg",
-    Position: "Design assistant",
-    Instagram: "aniskashyap_",
-    Linkedin: "anis kashyap",
-  },
-  {
     Fullname: "Raumakh Paul",
     Image: "raukhmaukhpaul.jpeg",
     Position: "Content",
