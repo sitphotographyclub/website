@@ -1,7 +1,8 @@
-import Img1 from "../../public/Events/Orientation_1.jpg";
-import Img2 from "../../public/Events/Prinstine.jpg"
-import Img3 from "../../public/Events/Seminar.jpg"
-import Img4 from "../../public/Events/Interview.jpg"
+import Img1 from "/Events/Orientation_1.jpg";
+import Img2 from "/Events/Prinstine.jpg"
+import Img3 from "/Events/Seminar.jpg"
+import Img4 from "/Events/Interview.jpg"
+import Img5 from "/Events/workshop01.jpg"
 export const EventDetails = [
     {
         id: "Photography-Club-Selection-2024",
@@ -47,4 +48,15 @@ export const EventDetails = [
         Timing: "10:00 AM - 02:00 PM",
         Link:""
     },
+    {
+        id: "Creative-Edge-To-Career-Advantage",
+        Title: "Creative Edge To Career Advantage",
+        Image: Img5,
+        Location: "Microsoft Teams",
+        Description: "Join us for three exciting sessions: 📅Nov 16: Designing for Impact – Dive into visual storytelling and user-centered design to boost your creative skills. 📅Nov 17 & 18: Career Insights from Alumni – Hear from two successful alumni on building a career, with one sharing his journey of balancing a job with his passion for photography.",
+        Tags: ["Designing", "Storytelling", "Event managemant", "Career", "Content Creation", "Photography"],
+        Date: "16 - 18 November 2024",
+        Timing: "05:00 PM - 07:00 PM",
+        Link:""
+    }
 ];
