@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { set, ref } from "firebase/database";
 import Firebase from "../Databases/Firebase";
 import { CurrentDate, CurrentTime } from "../Databases/DateTime";
+import { Helmet } from 'react-helmet';
+
 
 export default function Contact() {
   const [firstname, setFirstname] = useState("");
@@ -26,6 +28,19 @@ export default function Contact() {
 
   return (
     <>
+    <Helmet>
+        <title>Contact Us | SIT Photography Club</title>
+        <meta
+          name="description"
+          content="Get in touch with SIT Photography Club to join our vibrant community of photographers, inquire about events, or collaborate with us. Contact us via email, phone, or visit us on campus."
+        />
+        <meta
+          name="keywords"
+          content="SIT Photography Club contact, photography club contact, contact photography club, join photography club, collaborate photography, photography events"
+        />
+        <link rel="canonical" href="https://www.sitphotography.club/contact" />
+      </Helmet>
+      
       {/* <div>Contact</div>
       <input
         value={firstname}

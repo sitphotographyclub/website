@@ -56,7 +56,7 @@ export default function About() {
     
     <div className="text-light bg-black" style={{ background: "rgba(0,0,0,1)" }}>
       <Helmet>
-        <title>About SIT Photography Club | A Journey Through the Lens</title>
+        <title>About | A Journey Through the Lens</title>
         <meta
           name="description"
           content="Explore the history and key activities of SIT Photography Club, a thriving community for photography enthusiasts founded in July 2019."
@@ -71,7 +71,7 @@ export default function About() {
           content="SIT Photography Club offers a platform for photographers to showcase their talent through various contests, events, and exhibitions."
         />
         <meta property="og:url" content="https://www.sitphotography.club/about" />
-        <link rel="canonical" href="https://www.sitphotography.club/about" />
+        <link rel="canonical" href="https://www.sitphotography.club/contact" />
       </Helmet>
 
       <div className="container" id="about-us">
