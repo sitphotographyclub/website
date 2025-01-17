@@ -35,13 +35,13 @@ const TeamDetails = [
     Instagram: "https://www.instagram.com/_indrayaudh_official",
     Linkedin: "Indrayaudh Sengupta",
   },
-  {
-    Fullname: "Rounak Pramanik",
-    Image: "rounakpramanik.jpg",
-    Position: "Content Lead",
-    Instagram: "https://www.instagram.com/rounak.jpeg",
-    Linkedin: "https://www.linkedin.com/in/rounak-pramanik-90128a227",
-  },
+  // {
+  //   Fullname: "Rounak Pramanik",
+  //   Image: "rounakpramanik.jpg",
+  //   Position: "Content Lead",
+  //   Instagram: "https://www.instagram.com/rounak.jpeg",
+  //   Linkedin: "https://www.linkedin.com/in/rounak-pramanik-90128a227",
+  // },
   {
     Fullname: "Biswarup Das",
     Image: "biswarupdas.jpg",
@@ -58,11 +58,25 @@ const TeamDetails = [
     Linkedin: "",
   },
   {
+    Fullname: "Paushali Karmakar",
+    Image: "paushalikarmakar.jpg",
+    Position: "Content Team",
+    Instagram: "https://www.instagram.com/_.poushali._?igsh=MXBseHpkYm1peGU1",
+    Linkedin: "https://www.linkedin.com/",
+  },
+  {
     Fullname: "Aniket Ghosh",
     Image: "aniketghosh.jpg",
     Position: "Technical Team",
     Instagram: "",
     Linkedin: "https://www.linkedin.com/in/aniket-ghosh-8b0b53281/",
+  },
+  {
+    Fullname: "Isha Singh",
+    Image: "isha.jpg",
+    Position: "Teach Team",
+    Instagram: "https://www.instagram.com/_ishu_0310_",
+    Linkedin: "Isha Singh",
   },
   {
     Fullname: "Meher Ghimiray",
@@ -123,41 +137,13 @@ const TeamDetails = [
     Linkedin: "https://www.linkedin.com/in/bhaskar-kumar-35a527284",
   },
   {
-    Fullname: "Anindita Chatterjee",
-    Image: "aninditachatterjee.jpg",
-    Position: "PR/Marketing Team",
-    Instagram: "https://www.instagram.com/ani_exposurespot",
-    Linkedin: "https://www.linkedin.com/in/anindita-chatterjee-23694925a",
-  },
-  {
-    Fullname: "Dorothy Das",
-    Image: "dorothydas.jpg",
-    Position: "PR/Marketing Team",
-    Instagram: "https://www.instagram.com/vibrant_ds",
-    Linkedin: "https://www.linkedin.com/in/dorothy-das-a6bb0b257",
-  },
-
-  {
-    Fullname: "Harshita Das",
-    Image: "harshitadas.jpg",
-    Position: "PR/Marketing Team",
-    Instagram: "https://www.instagram.com/harsh.ita_das",
-    Linkedin: "https://www.linkedin.com/in/harshita-das-b54929269",
-  },
-  {
     Fullname: "Iman Paul",
     Image: "imanpaul.jpg",
     Position: "PR/Marketing Team",
     Instagram: "https://www.instagram.com/iman.paul.79",
     Linkedin: "https://www.linkedin.com/in/iman-paul-6950b8240",
   },
-  {
-    Fullname: "Paushali Karmakar",
-    Image: "paushalikarmakar.jpg",
-    Position: "Content Team",
-    Instagram: "https://www.instagram.com/_.poushali._?igsh=MXBseHpkYm1peGU1",
-    Linkedin: "https://www.linkedin.com/",
-  },
+
   {
     Fullname: "Minhaj Chowdhury",
     Image: "minhaj.jpg",
@@ -239,14 +225,6 @@ const TeamDetails = [
     Linkedin: "https://www.linkedin.com/in/nisha-barman-a4787b287",
   },
   {
-    Fullname: "Sonia Saha",
-    Image: "sonia.jpg",
-    Position: "Investor Relations Assistant",
-    Instagram: "https://www.instagram.com/_sonia_shh",
-    Linkedin:
-      "https://www.linkedin.com/in/sonia-saha-4ba7b2309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
-  {
     Fullname: "Retina Saha",
     Image: "retina.jpg",
     Position: "Influencer outreach coordinator",
@@ -279,13 +257,6 @@ const TeamDetails = [
       "https://www.instagram.com/dhruba_haldar/profilecard/?igsh=ZWJidTNia2pmOHVn",
     Linkedin:
       "https://www.linkedin.com/in/dhruba-haldar-404128326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-  },
-  {
-    Fullname: "Isha Singh",
-    Image: "isha.jpg",
-    Position: "Photography",
-    Instagram: "https://www.instagram.com/_ishu_0310_",
-    Linkedin: "Isha Singh",
   },
   {
     Fullname: "Adipta Chakraborty",
