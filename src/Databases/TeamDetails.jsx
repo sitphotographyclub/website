@@ -60,7 +60,7 @@ const TeamDetails = [
   {
     Fullname: "Paushali Karmakar",
     Image: "paushalikarmakar.jpg",
-    Position: "Content Team",
+    Position: "Content Lead",
     Instagram: "https://www.instagram.com/_.poushali._?igsh=MXBseHpkYm1peGU1",
     Linkedin: "https://www.linkedin.com/",
   },
