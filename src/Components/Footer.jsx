@@ -62,6 +62,8 @@ const Footer = () => {
                 <li><a href="https://www.linkedin.com/company/sit-photography-club/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a></li>
               </ul>
             </div>
+            <p className="text-gray-600 dark:text-slate-400">Mobile: +91 9093084685</p>
+            <p className="text-gray-600 dark:text-slate-400">Mail: technical@sitphotography.club</p>
           </div>
           {/* footer right side end  */}
         </div>

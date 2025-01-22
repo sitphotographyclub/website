@@ -73,8 +73,8 @@ const TeamDetails = [
   },
   {
     Fullname: "Isha Singh",
-    Image: "isha.jpg",
-    Position: "Teach Team",
+    Image: "isha.jpeg",
+    Position: "Technical Team",
     Instagram: "https://www.instagram.com/_ishu_0310_",
     Linkedin: "Isha Singh",
   },

@@ -35,7 +35,7 @@ export default function Contact() {
         placeholder="First Name"
       ></input>
       <input
-        value={lastname}
+       </div> value={lastname}
         onChange={(e) => {
           setLastname(e.target.value);
         }}
@@ -66,6 +66,7 @@ export default function Contact() {
 
       {/* <!-- Contact form --> */}
       <section className="bg-black py-3 mt-0">
+        <div className="mb-20">
         <div className="container">
           <div className="row justify-content-md-center">
             <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
@@ -79,7 +80,16 @@ export default function Contact() {
             </div>
           </div>
         </div>
-
+        <div className="flex justify-center items-center w-full mb-10">
+          <div className="text-center">
+            <h3 className="mb-4 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+              Contact Us Directly
+            </h3>
+            <p className="text-gray-600 dark:text-slate-400">Mobile: +91 9093084685</p>
+            <p className="text-gray-600 dark:text-slate-400">Mail: technical@sitphotography.club</p>
+          </div>
+        </div>
+        <hr className="w-50 mx-auto mb-5 mb-xl-9 border-gray-600" />
         <div className="container">
           <div className="row gy-3 gy-md-4 gy-lg-0 align-items-xl-center">
             <div className="col-12 col-lg-6">
@@ -206,6 +216,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </section>
     </>
