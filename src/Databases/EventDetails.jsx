@@ -3,6 +3,10 @@ import Img2 from "/Events/Prinstine.jpg"
 import Img3 from "/Events/Seminar.jpg"
 import Img4 from "/Events/Interview.jpg"
 import Img5 from "/Events/workshop01.jpg"
+import Img6 from "/Events/rakhsha.jpg"
+import Img7 from "/Events/diwali.jpg";
+import Img8 from "/Events/snaps.jpg";
+
 export const EventDetails = [
     {
         id: "Photography-Club-Selection-2024",
@@ -58,5 +62,38 @@ export const EventDetails = [
         Date: "16 - 18 November 2024",
         Timing: "05:00 PM - 07:00 PM",
         Link:""
+    },
+    {
+        id: "Beige and Red Playful Illustrative Raksha Bandhan Instagram Story",
+        Title: "Rakhsha Bandhan photography contest",
+        Image: Img6,
+        Location: "Online",
+        Description: "Celebrate the bond of love and protection with our Rakhsha Bandhan photography contest. Capture the essence of this special day in a single frame and share it with us. The most creative entry will win a special prize!",
+        Tags: ["Storytelling", "Content Creation", "Photography"],
+        Date: "24 August 2024",
+        Timing: "",
+        Link: ""
+    },
+    {
+        id: "diwali",
+        Title: "Diwali & Halloween Photography Contest & Reel contest",
+        Image: Img7,
+        Location: "Online",
+        Description: "Celebrate the festival of lights and the spooky season with our Diwali & Halloween Photography Contest & Reel contest. Capture the essence of these special days in a single frame or a 30-second reel and share it with us. The most creative entry will win a special prize!",
+        Tags: ["Designing", "Storytelling", "Event managemant", "Career", "Content Creation", "Photography"],
+        Date: "5 November 2024",
+        Timing: "",
+        Link: ""
+    },
+    {
+        id: "snaps",
+        Title: "Durga Puja Photography & Reels Contest",
+        Image: Img8,
+        Location: "online",
+        Description: "Capture the essence of Durga Puja in a single frame or a 30-second reel and share it with us. The most creative entry will win a special prize!",
+        Tags: ["Designing", "Storytelling", "Event managemant", "Career", "Content Creation", "Photography"],
+        Date: "14 October 2024",
+        Timing: "",
+        Link: ""
     }
 ];
