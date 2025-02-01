@@ -296,13 +296,7 @@ const TeamDetails = [
     Instagram: "https://www.instagram.com/sahim.sha",
     Linkedin: "https://www.linkedin.com/in/sahim-sha",
   },
-  {
-    Fullname: "Yuvraj Sinha",
-    Image: "yuvraj.jpg",
-    Position: "Video and photo editor",
-    Instagram: "https://www.instagram.com/Im_anonymous01._",
-    Linkedin: "Yuvraj sinha",
-  },
+  
   {
     Fullname: "Aritra Bhadra",
     Image: "aritra.jpg",
