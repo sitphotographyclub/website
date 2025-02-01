@@ -5,6 +5,8 @@ import "./css/Home/fontawesome.css";
 import "./css/Home/owl.css";
 import "./css/Home/home.css";
 import "./design.css"
+import { Helmet } from "react-helmet";
+
 import TeamDetails from "../Databases/TeamDetails";
 import TeamCard from "./Teams/TeamCard";
 import img2 from "../../public/Home/Slider/3.jpeg";
@@ -66,6 +68,18 @@ export default function Home() {
   }]
   return (
     <div className="w-screen bg-black">
+<Helmet>
+        <title>SIT Photography Club - Capture Moments, Create Memories</title>
+        <meta
+          name="description"
+          content="Join the SIT Photography Club to explore the art of photography. Participate in events, showcase your talent, and connect with fellow enthusiasts."
+        />
+        <meta
+          name="keywords"
+          content="SIT Photography Club, photography, photography events, photography community, capture moments"
+        />
+        <link rel="canonical" href="https://www.sitphotography.club" />
+      </Helmet>
       <div className="w-full bg-black h-[500px] flex flex-col md:flex-row">
         <div className="w-full md:w1/2  h-full text-white">
           <p className="text-white text-3xl md:text-5xl leading-normal Heading pt-7 pr-7 pl-7 pb-2 font-sans font-bold">Capture the Moment with Our Photography Club</p>
