@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/About.css";
 import "./design.css"
+import { Helmet } from "react-helmet-async";
+
 
 export default function About() {
   const colors = ["#41516C", "#FBCA3E", "#E24A68", "#1B5F8C", "#4CADAD"];
